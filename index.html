@@ -4,264 +4,351 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Стабильные сервисы и понятные процессы — Леонид Кокорев</title>
+    <title>CTO на подключение, DevOps/SRE и AI-автоматизация — Леонид Кокорев</title>
     <meta
       name="description"
-      content="Навожу порядок в системах, автоматизирую рутину и запускаю пилоты, чтобы ваши сервисы работали стабильно, а команда занималась ростом бизнеса."
+      content="Леонид Кокорев подключается как fractional CTO: стабилизирует сервисы, собирает AI-контуры, автоматизирует рутину и запускает пилоты без ручного хаоса."
     />
+    <meta name="theme-color" content="#080d14" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CTO на подключение, DevOps/SRE и AI-автоматизация — Леонид Кокорев" />
+    <meta
+      property="og:description"
+      content="CTO на подключение, DevOps/SRE и AI-автоматизация: стабилизация сервисов, порядок в процессах, боты и пилоты без лишней стройки."
+    />
+    <meta property="og:url" content="https://leonid.pro/" />
+    <meta property="og:site_name" content="leonid.pro" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://leonid.pro/" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+    />
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
-  <body>
-    <header>
-      <div class="navbar">
-        <a class="navbar__brand" href="#top">LEONID.PRO</a>
-        <nav class="navbar__links">
-          <a href="#benefits">Результат</a>
-          <a href="#segments">Кому подходит</a>
-          <a href="#offers">Офферы</a>
+  <body class="page-home">
+    <a class="skip-link" href="#main-content">Перейти к содержимому</a>
+
+    <header class="site-header" data-header>
+      <div class="site-header__inner">
+        <a class="brand" href="#top" aria-label="На главную">LEONID.PRO</a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          data-menu-toggle
+        >
+          <span>Меню</span>
+        </button>
+
+        <nav class="site-nav" id="site-menu" aria-label="Основная навигация" data-menu>
+          <a href="#proof">Доверие</a>
+          <a href="#audience">Ситуации</a>
+          <a href="#offers">Форматы</a>
+          <a href="#ai">AI</a>
           <a href="#cases">Кейсы</a>
           <a href="#process">Процесс</a>
           <a href="#faq">FAQ</a>
-          <a href="#contact" class="btn btn--ghost" data-analytics="nav-contact">Забронировать слот</a>
+          <a href="/resume/">Для HR</a>
+          <a class="btn btn--nav" href="#contact">Обсудить задачу</a>
         </nav>
       </div>
     </header>
 
-    <main id="top">
-      <section class="hero" id="hero">
-        <div class="hero-content">
-          <p class="section__label">Про деньги и спокойствие</p>
-          <div class="hero-pillars" role="list">
-            <article class="hero-pillar" role="listitem">
-              <h2 class="hero-pillar__title">Ваши сервисы — стабильны</h2>
-              <p class="hero-pillar__text">Единый мониторинг, SLA и резервирование, чтобы вы забыли про незапланированные простои.</p>
-            </article>
-            <article class="hero-pillar" role="listitem">
-              <h2 class="hero-pillar__title">Команда — спокойна</h2>
-              <p class="hero-pillar__text">Регламенты, прозрачные роли и понятные отчёты: инженеры знают, что делать, руководство — что происходит.</p>
-            </article>
-            <article class="hero-pillar" role="listitem">
-              <h2 class="hero-pillar__title">Рутина — автоматизирована</h2>
-              <p class="hero-pillar__text">Скрипты и интеграции закрывают повторяющиеся операции, высвобождая часы на развитие продукта.</p>
-            </article>
-          </div>
+    <main id="main-content">
+      <section class="hero section section--hero" id="top">
+        <div class="hero__copy" data-reveal>
+          <p class="eyebrow">CTO на подключение / DevOps / AI-автоматизация</p>
+          <h1>Собираю управляемые сервисы, процессы и AI-контуры без ручного хаоса.</h1>
           <p class="hero__lead">
-            Выстраиваю эксплуатацию и автоматизацию, чтобы продажи росли без сбоев, команда работала предсказуемо, а собственник видел реальные цифры. 8+ лет стабилизирую продукты с критичной нагрузкой.
+            Подключаюсь, когда бизнес, продуктовая или сервисная команда упираются в инциденты, знания живут в людях, AI пробуют кусками, а руководителю нужен один вменяемый контур вместо чатов, ручных сводок и магии.
           </p>
           <div class="hero__actions">
-            <a class="btn btn--primary" href="#offer-premium" data-analytics="cta-premium">Премиум-решение для бизнеса</a>
-            <a class="btn btn--ghost" href="#offer-mvp" data-analytics="cta-mvp">Запустить MVP-пилот</a>
+            <a class="btn btn--primary" href="#contact">Запросить рабочую сессию</a>
+            <a class="btn btn--secondary" href="#offers">Посмотреть форматы</a>
+          </div>
+          <div class="hero__trust">
+            <span>8+ лет в DevOps/SRE, интеграциях и операционном лидерстве</span>
+            <span>ООО «Пункт Б»: техконтур бизнеса с 10+ летней историей</span>
+            <span>Codex, Gemini, OpenClaw, базы знаний и управление доступами</span>
+          </div>
+        </div>
+
+        <aside class="hero__panel" aria-label="Операционный срез" data-reveal>
+          <div class="signal-card signal-card--accent">
+            <p class="signal-card__label">Что меняется после включения</p>
+            <div class="signal-card__value">Не просто чиню сбои. Собираю контур, где сервисы, люди и агенты работают по правилам.</div>
+          </div>
+
+          <div class="snapshot">
+            <div class="snapshot__row">
+              <span>До</span>
+              <strong>Ручные реакции, чаты, AI “сам по себе” и знания только в головах</strong>
+            </div>
+            <div class="snapshot__row">
+              <span>После</span>
+              <strong>Мониторинг, регламенты, боты, алерты и единый контур решений</strong>
+            </div>
+          </div>
+
+          <div class="metric-rail" role="list" aria-label="Ключевые результаты">
+            <article class="metric-chip" role="listitem">
+              <strong>99,8%</strong>
+              <span>стабильности на критичных стендах</span>
+            </article>
+            <article class="metric-chip" role="listitem">
+              <strong>336+</strong>
+              <span>локальных Codex-сессий и рабочих agent-циклов в живой среде</span>
+            </article>
+            <article class="metric-chip" role="listitem">
+              <strong>OpenClaw</strong>
+              <span>Telegram-gateway, маршрутизация моделей и machine alerts в runtime</span>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section proof" id="proof">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Доверие и контекст</p>
+          <h2>Нужна управляемость, а не ещё один подрядчик.</h2>
+        </div>
+
+        <div class="proof__grid">
+          <article class="editorial-note" data-reveal>
+            <p class="editorial-note__lead">
+              Я полезен там, где бизнесу нужен не ещё один абстрактный “сильный технарь”, а человек, который быстро находит узкое место, наводит порядок в процессах и показывает результат в понятных для собственника изменениях.
+            </p>
+            <div class="role-rail" aria-label="Зоны ответственности">
+              <span>CTO на подключение</span>
+              <span>DevOps / SRE</span>
+              <span>AI-автоматизация</span>
+              <span>Регламенты и базы знаний</span>
+            </div>
+          </article>
+
+          <div class="proof__stats" data-reveal>
+            <article>
+              <span class="proof__value">Punct B 2.0</span>
+              <p>С марта 2024 веду техконтур «Пункт Б», а с 2025 собираю punctb.pro как новый продуктовый контур. Основной релиз запланирован на весну 2026.</p>
+            </article>
+            <article>
+              <span class="proof__value">AI под контролем</span>
+              <p>AI у меня не вместо контроля: Codex и Gemini работают внутри правил, smoke-проверок, явных ролей и обязательного подтверждения человеком.</p>
+            </article>
+            <article>
+              <span class="proof__value">Боты в работе</span>
+              <p>OpenClaw и codex-watch завязаны на алерты, health-check и маршрутизацию, поэтому боты не висят красивой демкой, а входят в реальный процесс.</p>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="section benefits" id="benefits">
-        <h2 class="section__title">Что вы получаете</h2>
-        <div class="benefits-grid">
-          <article class="suite-card benefits-card">
-            <div>
-              <h3>Что получаете</h3>
-              <p>Быстрый «рентген» бизнес-критичных процессов, понятные цифры по доступности и реакции, автоматизация повторяющихся задач и передача регламентов команде.</p>
-            </div>
-            <div>
-              <p><strong>Мини-гарантия:</strong> пилот не даёт пользы — стопим без обязательств. Оплата только по принятым этапам.</p>
-            </div>
-          </article>
-          <div class="benefits-stats">
-            <div class="stat-card">
-              <strong>99,8% стабильности</strong>
-              <span>на ключевых стендах финансовой платформы</span>
-            </div>
-            <div class="stat-card">
-              <strong>15 000+ клиентов</strong>
-              <span>обслуживаются без сбоев после автоматизации</span>
-            </div>
-            <div class="stat-card">
-              <strong>−30% аварийности</strong>
-              <span>за счёт регламентов и прозрачной отчётности</span>
-            </div>
-          </div>
+      <section class="section audience" id="audience">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Когда имеет смысл подключаться</p>
+          <h2>Три ситуации, где моё подключение даёт быстрый эффект.</h2>
         </div>
-      </section>
 
-      <section class="section" id="segments">
-        <p class="section__label">Кому помогаю</p>
-        <h2 class="section__title">Узнаёте свою ситуацию?</h2>
-        <div class="highlights">
-          <article class="highlight-card">
-            <h3>Сервис падает или подвисает</h3>
-            <p>Нужны стабильные стенды и ясные цифры по доступности. Навожу порядок, чтобы руководство видело, что происходит, а поддержка реагировала в регламент.</p>
+        <div class="scenario-list" role="list">
+          <article class="scenario" role="listitem" data-reveal>
+            <div class="scenario__index">01</div>
+            <div class="scenario__body">
+              <h3>Бизнес растёт, а процессы всё ещё держатся на памяти людей.</h3>
+              <p>Сервис или платформа живут давно, знания раскиданы, новые изменения страшно трогать, и каждый рост только усиливает хаос.</p>
+            </div>
           </article>
-          <article class="highlight-card">
-            <h3>Команда тонет в ручных задачах</h3>
-            <p>Повторяющиеся операции превращаем в «кнопки», чек-листы и автоматические сценарии. Люди занимаются ростом, а не тушением пожаров.</p>
+          <article class="scenario" role="listitem" data-reveal>
+            <div class="scenario__index">02</div>
+            <div class="scenario__body">
+              <h3>Команда хочет AI, но внедрение идёт кусками и без контрольного контура.</h3>
+              <p>Появляются отдельные боты и промпты, но нет прав, маршрутов, мониторинга, журналов решений и понятного владельцу эффекта.</p>
+            </div>
           </article>
-          <article class="highlight-card">
-            <h3>Нужно быстро проверить идею</h3>
-            <p>MVP-пилот за короткий срок: собираем рабочее решение, подключаем аналитику простым языком и сразу знаем, что масштабируем, а что — нет.</p>
+          <article class="scenario" role="listitem" data-reveal>
+            <div class="scenario__index">03</div>
+            <div class="scenario__body">
+              <h3>Нужен сильный технический контур без долгого и дорогого найма.</h3>
+              <p>Нужно оценить стек, выстроить приоритеты, включить автоматизацию и показать первые результаты в неделях, а не ждать кварталами.</p>
+            </div>
           </article>
         </div>
       </section>
 
-      <section class="section" id="offers">
-        <p class="section__label">Два понятных формата</p>
-        <h2 class="section__title">Выбираете глубину и темп</h2>
-        <div class="services-grid">
-          <article class="service-card" id="offer-premium">
-            <h3>Премиум-решение для действующего бизнеса</h3>
-            <p>Для компаний, где продажи идут, но сервисы нестабильны, процессы держатся на людях, а отчёты не сходятся.</p>
+      <section class="section offers" id="offers">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Форматы работы</p>
+          <h2>Два формата: укрепить базу или быстро проверить гипотезу.</h2>
+        </div>
+
+        <div class="offer-grid">
+          <article class="offer-card offer-card--primary" id="offer-premium" data-reveal>
+            <p class="offer-card__label">Основной формат</p>
+            <h3>CTO на подключение и операционное укрепление</h3>
+            <p>
+              Для бизнеса, где нужен технический руководитель на подключение: стабилизировать контур, выстроить эксплуатацию, собрать автоматизацию и AI под реальные ограничения команды.
+            </p>
             <ul>
-              <li>Провожу быстрый «рентген» систем и интеграций.</li>
-              <li>Закрепляю правила стабильности: мониторинг, резерв, регламенты.</li>
-              <li>Автоматизирую рутину команды и убираю человеческий фактор.</li>
-              <li>Настраиваю отчётность «для руководителя» на одном экране.</li>
+              <li>Аудит критичных зон, интеграций и зон ответственности</li>
+              <li>Мониторинг, регламенты, роли, эскалации и отчётность</li>
+              <li>AI и боты под человеческим контролем, а не “магия ради магии”</li>
+              <li>Видимость для основателя: риски, ритм и следующий шаг</li>
             </ul>
-            <p><strong>Формат:</strong> 2–6 недель активной работы, поэтапная оплата, контрольные точки по каждой зоне.</p>
-            <p><strong>Результат:</strong> сервисы не падают, видно цифры, команда работает по понятным правилам.</p>
-            <a class="btn btn--primary" href="#contact" data-analytics="offer-premium">Запросить расчёт этапов</a>
+            <p class="offer-card__meta">2–6 недель на первый цикл, затем работа по согласованному ритму задач бизнеса</p>
+            <a class="btn btn--light" href="#contact">Запросить первый цикл</a>
           </article>
-          <article class="service-card" id="offer-mvp">
-            <h3>MVP-пилот за короткий срок</h3>
-            <p>Чтобы проверить гипотезу или запустить новый процесс без долгой стройки и потери фокуса.</p>
+
+          <article class="offer-card" id="offer-mvp" data-reveal>
+            <p class="offer-card__label">Короткий спринт</p>
+            <h3>Пилот: AI-автоматизация, MVP или новый контур</h3>
+            <p>Для проверки идеи, нового сервиса или конкретной зоны рутины, где нужен не доклад, а рабочий прототип с понятным решением: масштабировать или нет.</p>
             <ul>
-              <li>Собираю минимально достаточное решение под вашу задачу.</li>
-              <li>Подключаю аналитику и отчёт «что получилось / что мешает».</li>
-              <li>Даём чёткие next steps: масштабируем или останавливаем без потерь.</li>
+              <li>Минимально достаточный контур под одну ценную задачу</li>
+              <li>Быстрая сборка на доступном стеке и существующей инфраструктуре</li>
+              <li>Разбор эффекта, ограничений и следующих шагов без sunk cost</li>
             </ul>
-            <p><strong>Формат:</strong> короткий спринт с фиксированным объёмом и понятным бюджетом.</p>
-            <p><strong>Результат:</strong> рабочий пилот на реальных данных и уверенность, стоит ли вкладываться дальше.</p>
-            <a class="btn btn--ghost" href="#contact" data-analytics="offer-mvp">Забронировать пилот</a>
+            <p class="offer-card__meta">Фиксированный спринт, понятный scope, без фальшивых обещаний</p>
+            <a class="btn btn--secondary" href="#contact">Запустить пилот</a>
           </article>
         </div>
       </section>
 
-      <section class="section" id="cases">
-        <p class="section__label">Кейсы «было → стало»</p>
-        <h2 class="section__title">Про цифры, а не инструменты</h2>
-        <div class="projects-grid">
-          <article class="project-card">
-            <h3>Финансовая платформа</h3>
-            <p><strong>Было:</strong> стенды падали, реагировали вручную, простои били по продаже продуктов.</p>
-            <p><strong>Сделал:</strong> выстроил регламенты, настроил мониторинг и единый контроль инцидентов.</p>
-            <p><strong>Стало:</strong> 99,8% стабильности, время реакции предсказуемо, команда работает по чек-листам.</p>
+      <section class="section cases" id="ai">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Рыночное преимущество</p>
+          <h2>AI у меня не на слайдах, а в рабочем контуре.</h2>
+        </div>
+
+        <div class="case-stack">
+          <article class="case-card" data-reveal>
+            <div class="case-card__meta">Codex + MCP</div>
+            <h3>Использую Codex как инженерный рычаг, а не как чат-игрушку.</h3>
+            <p>Локально работаю через filesystem, GitHub, Postgres и Playwright MCP: агенты читают репозитории, вносят правки, гоняют smoke и помогают держать скорость без потери контроля.</p>
+            <strong>Для клиента это означает более быстрый аудит, меньше ручной рутины и короче путь от гипотезы до проверенного изменения.</strong>
           </article>
-          <article class="project-card">
-            <h3>Онлайн-школа с франчайзи</h3>
-            <p><strong>Было:</strong> десятки инструментов и ручные переписки — заявки терялись, франчайзи злится.</p>
-            <p><strong>Сделал:</strong> собрал контур коммуникаций, автоматизировал переписки и отчёты.</p>
-            <p><strong>Стало:</strong> 15 000+ клиентов обслуживаются без сбоев, конверсии растут за счёт автоматизации.</p>
+          <article class="case-card" data-reveal>
+            <div class="case-card__meta">Gemini + Nano Banana</div>
+            <h3>Gemini подключаю как второй исследовательский и визуальный контур.</h3>
+            <p>Использую Gemini CLI для альтернативного анализа и Nano Banana для генерации, правки и восстановления визуальных материалов, когда нужно быстро собрать артефакт, концепт или контентную упаковку.</p>
+            <strong>Это ускоряет исследование и упаковку без размывания инженерной строгости.</strong>
           </article>
-          <article class="project-card">
-            <h3>Ритейл-интеграции</h3>
-            <p><strong>Было:</strong> мониторинг и логи разрознены, инциденты тянулись днями.</p>
-            <p><strong>Сделал:</strong> перевёл наблюдение в единый контур, наладил отчётность по потерям.</p>
-            <p><strong>Стало:</strong> инциденты разбирают быстрее, снижаются потери в интеграциях.</p>
-          </article>
-          <article class="project-card">
-            <h3>Логистика</h3>
-            <p><strong>Было:</strong> частые сбои, знания только в головах сотрудников.</p>
-            <p><strong>Сделал:</strong> собрал базу знаний, ввёл контроль состояния и ответственность.</p>
-            <p><strong>Стало:</strong> аварийность снизилась примерно на 30%, у команды понятные инструкции.</p>
+          <article class="case-card" data-reveal>
+            <div class="case-card__meta">OpenClaw + Telegram</div>
+            <h3>Ботов не только создаю, но и ставлю на рельсы.</h3>
+            <p>На машине развёрнут OpenClaw gateway: маршрутизация моделей Codex и Gemini, Telegram-доставка, роли, команды, auth-профили, health-check и alerting.</p>
+            <strong>Именно поэтому могу говорить об AI-автоматизации как о runtime-практике, а не о наборе красивых промптов.</strong>
           </article>
         </div>
       </section>
 
-      <section class="section" id="process">
-        <p class="section__label">Как работаем</p>
-        <h2 class="section__title">Три шага до предсказуемых сервисов</h2>
-        <div class="process-steps">
-          <div class="process-step">
-            <div class="process-step__index">01</div>
-            <div class="process-step__body">
-              <h3>Разговор по делу</h3>
-              <p>30–45 минут, чтобы понять, где болит и что критично бизнесу. Фиксируем ожидания, риски и желаемые цифры.</p>
+      <section class="section cases" id="cases">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Кейсы</p>
+          <h2>Кейсы и контуры с измеримым операционным эффектом.</h2>
+        </div>
+
+        <div class="case-stack">
+          <article class="case-card" data-reveal>
+            <div class="case-card__meta">Финансовая платформа</div>
+            <h3>Стенды падали, реакции были ручными, простой бил по продаже продуктов.</h3>
+            <p>Собрал правила стабильности, настроил мониторинг и единый контроль инцидентов.</p>
+            <strong>Результат: 99,8% стабильности и предсказуемое время реакции.</strong>
+          </article>
+          <article class="case-card" data-reveal>
+            <div class="case-card__meta">ООО Пункт Б / Платформа 2.0</div>
+            <h3>10+ летнему стартапу нужен был не ещё один подрядчик, а технический партнёр, который соберёт новый контур.</h3>
+            <p>С марта 2024 веду техконтур бизнеса, а с 2025 на этой машине разрабатываю punctb.pro как Платформу 2.0: новый frontend и backend контур, роли и права доступа, уведомления, Telegram webhook, документацию и smoke-gates. Релиз основной версии запланирован на весну 2026.</p>
+            <strong>Результат: изменения проходят через более управляемый цикл, а AI-агенты встроены в разработку как инструмент ускорения, а не источник хаоса.</strong>
+          </article>
+          <article class="case-card" data-reveal>
+            <div class="case-card__meta">Логистика и интеграции</div>
+            <h3>Знания были рассыпаны по людям, инциденты тянулись, мониторинг не давал картины целиком.</h3>
+            <p>Ввёл контроль состояния, общую точку наблюдения и базу знаний с ответственностью.</p>
+            <strong>Результат: аварийность снизилась примерно на 30%, а решения стали воспроизводимыми и быстрее передаются дальше.</strong>
+          </article>
+        </div>
+      </section>
+
+      <section class="section process" id="process">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Процесс</p>
+          <h2>Сначала убираю риск, затем codify-ю систему.</h2>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-step" data-reveal>
+            <span>01</span>
+            <div>
+              <h3>Разбор контекста и позиции</h3>
+              <p>Фиксируем этап бизнеса, самую дорогую зону риска, роль AI в процессе и критерий, по которому собственник поймёт ценность.</p>
             </div>
-          </div>
-          <div class="process-step">
-            <div class="process-step__index">02</div>
-            <div class="process-step__body">
-              <h3>Пилот или аудит</h3>
-              <p>Делаю короткую работу, которая сразу облегчает жизнь: стабилизация участка, отчёт, сценарий. Видите подход и эффект.</p>
+          </article>
+          <article class="process-step" data-reveal>
+            <span>02</span>
+            <div>
+              <h3>Первый управляемый сдвиг</h3>
+              <p>Чиним один дорогой участок: сервис, интеграцию, отчётность, бот или ручной сценарий.</p>
             </div>
-          </div>
-          <div class="process-step">
-            <div class="process-step__index">03</div>
-            <div class="process-step__body">
-              <h3>Внедрение и поддержка</h3>
-              <p>Закрепляем изменения, передаю регламенты команде, договариваемся о регулярном контроле и отчётах.</p>
+          </article>
+          <article class="process-step" data-reveal>
+            <span>03</span>
+            <div>
+              <h3>Закрепление через правила и инструменты</h3>
+              <p>Оставляю после себя не зависимость от эксперта, а регламенты, наблюдаемость, ботов, документацию и понятный ритм решений.</p>
             </div>
-          </div>
-        </div>
-        <p style="margin-top: 32px; max-width: 640px; color: var(--text-muted);">
-          Оплата по этапам, без скрытых пунктов. Каждое решение фиксируем в простых сводках, понятных собственнику.
-        </p>
-      </section>
-
-      <section class="section" id="proof">
-        <p class="section__label">Социальное доказательство</p>
-        <h2 class="section__title">Руководители о результатах</h2>
-        <div class="testimonials-grid">
-          <article class="testimonial-card">
-            <p>«Перестали просыпаться ночью: стенды держат нагрузку, а отчёты приходят вовремя. Сейчас планируем масштабирование.»</p>
-            <span>Алексей, руководитель эксплуатации финсервиса</span>
-          </article>
-          <article class="testimonial-card">
-            <p>«Вместо 5 чатов и ручных сводок — один контур и понятные цифры. Команда успевает работать с франчайзи, а не тушить пожары.»</p>
-            <span>Мария, операционный директор онлайн-школы</span>
-          </article>
-          <article class="testimonial-card">
-            <p>«MVP-пилот показал, где зарабатываем, а где сливаем деньги. Сэкономили месяцы разработки и бюджет на лишние интеграции.»</p>
-            <span>Игорь, собственник продуктового бизнеса</span>
-          </article>
-        </div>
-        <div class="highlights" style="margin-top: 48px;">
-          <article class="highlight-card">
-            <h3>Прозрачность календаря</h3>
-            <p>Доступен открытый календарь с ближайшими слотами для консультаций — бронируете созвон или оставляете заявку, как удобнее.</p>
-          </article>
-          <article class="highlight-card">
-            <h3>Снижение риска</h3>
-            <p>Если пилот не приносит пользы, завершаем без обязательств. Договариваемся об этом заранее и фиксируем в этапах.</p>
           </article>
         </div>
       </section>
 
-      <section class="section" id="faq">
-        <p class="section__label">FAQ</p>
-        <h2 class="section__title">Отвечаю без жаргона</h2>
+      <section class="section faq" id="faq">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">FAQ</p>
+          <h2>Короткие ответы без технического тумана.</h2>
+        </div>
+
         <div class="faq-list">
-          <details open>
-            <summary>Сколько это займёт?</summary>
-            <p>Пилот — считанные недели. Премиум-внедрение разбиваем на этапы по 2–6 недель. Точные сроки фиксируем до старта.</p>
+          <details open data-reveal>
+            <summary>Сколько обычно занимает работа?</summary>
+            <p>Пилот укладывается в короткий спринт. Основной формат разбивается на этапы по 2–6 недель, чтобы первый управляемый эффект появился быстро, а не “когда-нибудь после проекта”.</p>
           </details>
-          <details>
-            <summary>Нужна ли своя ИТ-команда?</summary>
-            <p>Можно со своей, можно со мной. Объясняю человеческим языком, договариваюсь с подрядчиками и перевожу результаты в бизнес-цифры.</p>
+          <details data-reveal>
+            <summary>Вы заменяете людей ботами?</summary>
+            <p>Нет. Рынок сейчас доверяет AI только с human-in-the-loop. Я строю именно такой режим: правила, права, override, журнал решений и ручной контроль на чувствительных участках.</p>
           </details>
-          <details>
-            <summary>Сколько это стоит?</summary>
-            <p>MVP-пилот — фиксированный бюджет, который согласуем заранее. Премиум-решение рассчитываю индивидуально: платите только за принятые этапы.</p>
+          <details data-reveal>
+            <summary>Кому вы особенно полезны?</summary>
+            <p>Подходит для founder-led бизнеса, зрелых небольших команд, edtech, интеграционных и сервисных компаний, которым нужен человек с пониманием инфраструктуры, процессов и AI-инструментов.</p>
           </details>
-          <details>
-            <summary>Что по отчётности?</summary>
-            <p>Вы получаете сводку по доступности, рискам и экономии времени. Подготовлена для собственника, без технических терминов.</p>
+          <details data-reveal>
+            <summary>Если пилот не даст ценности?</summary>
+            <p>Это фиксируется заранее: короткий этап нужен именно для того, чтобы быстро проверить реальный эффект и не строить лишнее.</p>
           </details>
         </div>
       </section>
 
-      <section class="section" id="contact">
-        <p class="section__label">Заявка</p>
-        <h2 class="section__title">Давайте сделаем ваш сервис предсказуемым</h2>
+      <section class="section contact" id="contact">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Контакт</p>
+          <h2>Если нужно собрать техконтур, а не ещё одну пачку обещаний, обсудим задачу.</h2>
+        </div>
+
         <div class="contact-grid">
-          <div class="cta">
-            <h2>Запросите консультацию</h2>
-            <p>Опишите бизнес-контекст, и подготовлю план: где укрепить стабильность, что автоматизировать и как быстро протестировать идеи.</p>
-            <p>Предпочитаете мессенджер? Напишите в Telegram — отвечаю лично.</p>
-            <a class="btn btn--primary" href="https://t.me/leotechru" target="_blank" rel="noopener" data-analytics="contact-telegram">Написать в Telegram</a>
-          </div>
-          <form id="contact-form" class="contact-form" action="/api/contact" method="POST" data-analytics="form-lead">
+          <article class="contact-panel contact-panel--accent" data-reveal>
+            <p class="contact-panel__label">Прямой контакт</p>
+            <h3>Присылайте стек, узкое место и желаемый эффект.</h3>
+            <p>Подходит, если вам нужен CTO на подключение, стабилизация сервиса, AI-пилот или управляемая автоматизация. В ответ дам трезвую оценку первого цикла: что делать сейчас, что не делать и как это проверить без лишней стройки.</p>
+            <div class="contact-panel__links">
+              <a class="btn btn--light" href="https://t.me/leotechru" target="_blank" rel="noopener">Написать в Telegram</a>
+              <a class="text-link" href="/resume/">Для HR и резюме</a>
+            </div>
+          </article>
+
+          <form class="contact-form" id="contact-form" action="/api/contact" method="POST" data-analytics="form-lead" data-reveal>
             <div class="form-field">
               <label for="name">Имя</label>
               <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required />
@@ -271,94 +358,54 @@
               <input type="email" id="email" name="email" placeholder="name@company.com" required />
             </div>
             <div class="form-field">
-              <label for="context">С чем помочь?</label>
-              <textarea id="context" name="context" rows="5" placeholder="Расскажите о сервисе, проблеме и желаемом результате" required minlength="10"></textarea>
+              <label for="context">Контекст задачи</label>
+              <textarea
+                id="context"
+                name="context"
+                rows="6"
+                placeholder="Что сейчас не работает как нужно, где риск или узкое место, и какого результата вы ждёте"
+                required
+                minlength="10"
+              ></textarea>
             </div>
             <div class="form-field">
-              <label for="preferred">Как связаться?</label>
-              <input type="text" id="preferred" name="preferred" placeholder="Телефон, Telegram или другой канал" />
+              <label for="preferred">Предпочтительный канал связи</label>
+              <input type="text" id="preferred" name="preferred" placeholder="Телефон, Telegram или другой удобный канал" />
             </div>
-            <div class="form-field" style="display: none;">
+            <div class="form-field form-field--hidden">
               <label for="company-url">Ваш сайт</label>
               <input type="text" id="company-url" name="company_url" tabindex="-1" autocomplete="off" />
             </div>
-            <button class="btn btn--submit" type="submit" data-analytics="form-submit">Отправить заявку</button>
+            <button class="btn btn--submit" type="submit">Отправить вводные</button>
           </form>
         </div>
       </section>
-
-      <section class="section" id="for-recruiters">
-        <p class="section__label">Для рекрутёров и HR</p>
-        <h2 class="section__title">Технические детали и формат работы</h2>
-        <div class="recruiter-list">
-          <div>
-            <strong>Опыт:</strong>
-            <span>8+ лет DevOps/SRE и технического консалтинга</span>
-          </div>
-          <div>
-            <strong>Стек:</strong>
-            <span>Docker, Kubernetes, Python, SAP PO, Bitrix24, Zabbix, PostgreSQL, Oracle</span>
-          </div>
-          <div>
-            <strong>Роли:</strong>
-            <span>Ведущий инженер тестовых стендов (Мосбиржа), CTO онлайн-школы, инженер сопровождения интеграций (X5 Tech, Magnit)</span>
-          </div>
-          <div>
-            <strong>Формат:</strong>
-            <span>Консалтинг, внедрение, менторство команд. Удалённо или гибридно.</span>
-          </div>
-        </div>
-        <a class="btn btn--primary recruiter-download" href="Кокорев Леонид Вениаминович.pdf" target="_blank" rel="noopener" data-analytics="download-resume">Скачать резюме (PDF)</a>
-      </section>
     </main>
 
-    <footer>
-      <div class="footer__inner footer__bar">
-        <span>© 2025 Леонид Кокорев. Стабильные сервисы и понятные процессы.</span>
-        <div class="badges">
-          <a class="badge" href="https://t.me/intdata" target="_blank" rel="noopener">TG: intData</a>
-          <a class="badge" href="https://career.habr.com/leotechru" target="_blank" rel="noopener">Habr Career</a>
-          <a class="badge" href="https://www.linkedin.com/in/leotechru/" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="mobile-contact" href="#contact">Связаться</a>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <a class="brand brand--footer" href="#top">LEONID.PRO</a>
+          <p>CTO на подключение, стабильные сервисы и AI-автоматизация для команд, которым нужен контроль, а не шум.</p>
         </div>
+        <nav class="site-footer__links" aria-label="Навигация в подвале">
+          <a href="#offers">Форматы</a>
+          <a href="#ai">AI</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#contact">Контакт</a>
+          <a href="/resume/">Для HR / резюме</a>
+          <a href="https://career.habr.com/leotechru" target="_blank" rel="noopener">Habr Career</a>
+          <a href="https://www.linkedin.com/in/leotechru/" target="_blank" rel="noopener">LinkedIn</a>
+        </nav>
+      </div>
+      <div class="site-footer__bottom">
+        <span>© <span data-year>2026</span> Леонид Кокорев</span>
+        <span>Собран как лёгкий статический сайт без тяжёлого рантайма.</span>
       </div>
     </footer>
 
-    <script>
-      const sections = Array.from(document.querySelectorAll('main section[id]'));
-      const navLinks = Array.from(document.querySelectorAll('.navbar__links a'));
-
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (!entry.isIntersecting) return;
-            const id = `#${entry.target.id}`;
-            const targetLink = navLinks.find((link) => link.getAttribute('href') === id);
-            if (!targetLink) return;
-            navLinks.forEach((link) => link.classList.toggle('active', link === targetLink));
-          });
-        },
-        {
-          rootMargin: '-50% 0px -50% 0px',
-          threshold: 0.4
-        }
-      );
-
-      sections.forEach((section) => observer.observe(section));
-
-      navLinks.forEach((link) => {
-        link.addEventListener('click', () => {
-          navLinks.forEach((item) => item.classList.remove('active'));
-          link.classList.add('active');
-        });
-      });
-
-      const initialLink = navLinks.find((link) => {
-        const section = document.querySelector(link.getAttribute('href'));
-        return section && section.getBoundingClientRect().top >= 0;
-      });
-      if (initialLink) {
-        initialLink.classList.add('active');
-      }
-    </script>
+    <script src="assets/site.js"></script>
   </body>
 </html>
