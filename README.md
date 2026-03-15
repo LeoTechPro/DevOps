@@ -28,9 +28,13 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 
 Мой основной публичный инженерный репозиторий: развитие в DevOps/SRE-стеке, лаборатории, материалы и практические контуры.
 
-### [OpenClaw](https://github.com/LeoTechPro/OpenClaw)
+### [intTools](https://github.com/LeoTechPro/intTools)
 
-Локальный agent/runtime-контур: launcher'ы, gateway-конфиг, systemd-обвязка, операционный подход к AI-агентам и инструментам.
+Инфраструктурный репозиторий инструментов и автоматизации: shared tooling, gates, codex- и probe-утилиты, внутренние ops-пайплайны и поддержка команды.
+
+### [OpenClaw](https://github.com/LeoTechPro/OpenClaw) *(legacy)
+
+Исторический legacy-контур AI-автоматизации; для рабочих операций на текущий момент используется наследуемый tooling из `intTools` и соответствующий локальный runtime.
 
 ### [LeoTechPro](https://github.com/LeoTechPro/LeoTechPro)
 
