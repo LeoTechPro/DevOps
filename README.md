@@ -32,10 +32,6 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 
 Инфраструктурный репозиторий инструментов и автоматизации: shared tooling, gates, codex- и probe-утилиты, внутренние ops-пайплайны и поддержка команды.
 
-### [OpenClaw](https://github.com/LeoTechPro/OpenClaw) *(legacy)
-
-Исторический legacy-контур AI-автоматизации; для рабочих операций на текущий момент используется наследуемый tooling из `intTools` и соответствующий локальный runtime.
-
 ### [LeoTechPro](https://github.com/LeoTechPro/LeoTechPro)
 
 Публичный профильный хаб и личная витрина: сайт, профиль, точка входа в мои публичные материалы и кейсы.
