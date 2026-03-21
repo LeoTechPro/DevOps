@@ -1,4 +1,4 @@
-⚠️ Сначала прочитайте [корневой AGENTS.md](/git/AGENTS.md).
+⚠️ Сначала прочитайте [корневой AGENTS.md](/int/AGENTS.md).
 
 # AGENTS — Leonid public site
 
@@ -9,7 +9,7 @@
 
 ## Source-of-truth ownership
 
-- `/git/leonid` владеет только личным/public content владельца;
+- `/int/leonid` владеет только личным/public content владельца;
 - не является source-of-truth для family backend-core, ops-tooling и product contracts.
 
 ## What not to mutate

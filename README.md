@@ -4,7 +4,7 @@
 
 ## Target Role
 
-`/git/leonid` — `standalone-product`: личный сайт и публичные материалы владельца, не входящие в product-core семейства.
+`/int/leonid` — `standalone-product`: личный сайт и публичные материалы владельца, не входящие в product-core семейства.
 
 ## Canonical Ownership
 
@@ -56,7 +56,7 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 
 ---
 
-### [intTools](https://github.com/LeoTechPro/intTools)
+### [intTools](https://inthub.com/LeoTechPro/intTools)
 
 Инфраструктурный репозиторий инструментов и автоматизации: shared tooling, gates, codex- и probe-утилиты, внутренние ops-пайплайны и поддержка команды.
 
