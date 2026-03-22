@@ -1,29 +1,6 @@
-# Leonid Kokorev
+# Leonid Kokorev / LeoTechPro
 
 **DevOps / SRE / AI Automation / Operational Engineering**
-
-## Target Role
-
-`/int/leonid` — `standalone-product`: личный сайт и публичные материалы владельца, не входящие в product-core семейства.
-
-## Canonical Ownership
-
-- owner personal/public content владельца;
-- не owner family backend-core, shared schemas, product contracts или ops tooling проектов.
-
-## What Lives Here
-
-- личный сайт, docs/lab/edu/archive разделы и связанные публичные материалы.
-
-## What Must Not Live Here
-
-- canonical product-core семейства;
-- shared runtime-state, secrets и ops ownership чужих проектов;
-- попытки описывать здесь source-of-truth по `intdata core`.
-
-## Relations to `intdata core`
-
-Этот repo вне архитектуры canonical `intdata core` и не участвует в product-family ownership decisions.
 
 I build reliable technical contours: infrastructure, automation, monitoring, agent workflows, and knowledge-driven operations.
 
@@ -34,7 +11,7 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 - выстраиваю эксплуатационный контур для сервисов и внутренних платформ;
 - автоматизирую рутину через Python, Telegram, AI-агентов и интеграции;
 - собираю мониторинг, алерты, runbook-подход и понятные точки контроля;
-- соединяю инфраструктуру, процессы и знания так, чтобы система жила не только “в головах”;
+- соединяю инфраструктуру, процессы и знания так, чтобы система жила не только "в головах";
 - подключаюсь там, где нужен сильный технический слой без лишней бюрократии.
 
 ## Фокус и стек
@@ -49,16 +26,20 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 
 Вся инженерная база знаний и практические наработки структурированы по разделам:
 
--   [**Docs**](./docs/) — статьи, шпаргалки и техническая документация (DevOps, инструменты).
--   [**Lab**](./lab/) — практические лаборатории, примеры кода и интеграции.
--   [**Edu**](./edu/) — учебные курсы и выполненные задания (Otus, Testing).
--   [**Archive**](./archive/) — архивные проекты и старые скрипты.
+- [**Docs**](./docs/) — статьи, шпаргалки и техническая документация.
+- [**Lab**](./lab/) — практические лаборатории, примеры кода и интеграции.
+- [**Edu**](./edu/) — учебные курсы и выполненные задания.
+- [**Archive**](./archive/) — архивные проекты и старые скрипты.
 
----
+## Публичные проекты
 
-### [intTools](https://inthub.com/LeoTechPro/intTools)
+### [intTools](https://github.com/LeoTechPro/intTools)
 
 Инфраструктурный репозиторий инструментов и автоматизации: shared tooling, gates, codex- и probe-утилиты, внутренние ops-пайплайны и поддержка команды.
+
+### [DevOps](https://github.com/LeoTechPro/DevOps)
+
+Публичный инженерный репозиторий с лабораториями, материалами и практическими DevOps/SRE-контурами.
 
 ## Сейчас мне особенно интересны
 
@@ -66,10 +47,11 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 - надёжные внутренние инструменты вместо ручного хаоса;
 - observability и operational design;
 - knowledge-driven automation и second-brain-подход;
-- практический DevOps без декоративной “инфраструктурщины”.
+- практический DevOps без декоративной "инфраструктурщины".
 
 ## Контакты
 
+- GitHub: [LeoTechPro](https://github.com/LeoTechPro)
 - Telegram: [@LeoTechPro](https://t.me/LeoTechPro)
 - LinkedIn: [leotechru](https://www.linkedin.com/in/leotechru/)
 - Habr Career: [leotechru](https://career.habr.com/leotechru)
