@@ -50,3 +50,7 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - попытка сделать `/int/erp` owner shared backend schema/contracts;
 - перенос секретов и runtime-state в tracked repo;
 - coupling ERP contour и machine-wide tooling как одного owner-контура.
+
+## Git и завершение работы
+
+- Перед каждым локальным commit обязательно добавить в индекс новые файлы текущего scope и повторно выполнить `git add` для уже staged путей после каждой дополнительной правки; commit по устаревшему состоянию индекса запрещён.

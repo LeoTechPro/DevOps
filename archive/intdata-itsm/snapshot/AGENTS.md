@@ -50,3 +50,7 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - попытка сделать `/int/itsm` owner shared backend schema/contracts;
 - перенос mutable runtime-state и секретов в tracked repo;
 - coupling Flowable/ticketing contour и shared family backend ownership.
+
+## Git и завершение работы
+
+- Перед каждым локальным commit обязательно добавить в индекс новые файлы текущего scope и повторно выполнить `git add` для уже staged путей после каждой дополнительной правки; commit по устаревшему состоянию индекса запрещён.
