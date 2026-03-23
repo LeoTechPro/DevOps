@@ -23,13 +23,14 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 ## Allowed scope
 
+- `standalone-product` личного public-content контура владельца;
 - личный сайт, публичные материалы, резюме, docs/lab/edu/archive контент;
 - презентационные и контентные изменения внутри этого repo;
 - public-facing assets и repo-level docs, относящиеся только к сайту владельца.
 
 ## Source-of-truth ownership
 
-- `/int/leonid` владеет только personal/public content владельца;
+- `/int/leonid` остаётся `standalone-product` и владеет только personal/public content владельца;
 - не является source-of-truth для family backend-core, product contracts или machine-wide tooling;
 - не подменяет ownership других top-level repos в `/int`.
 
