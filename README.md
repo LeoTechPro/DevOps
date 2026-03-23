@@ -28,3 +28,22 @@
 - LinkedIn: [leotechru](https://www.linkedin.com/in/leotechru/)
 - Habr Career: [leotechru](https://career.habr.com/leotechru)
 - Habr: [leotechru](https://habr.com/ru/users/leotechru)
+
+## Подкаталоги и локальные инструкции
+
+Ниже восстановлено содержимое удалённых repo-owned `README.md` из предыдущего состояния репозитория.
+
+### `openspec/changes/`
+
+#### OpenSpec Changes
+
+Active proposals хранятся в подкаталогах `openspec/changes/*`.
+Bootstrap начинается пустым: новые `change-id` создаются только когда repo-local policy и явное одобрение владельца разрешают `SPEC-MUTATION`.
+
+### `openspec/specs/`
+
+#### OpenSpec Specifications
+
+Текущие capability specs этого репозитория хранятся в подкаталогах `openspec/specs/*`.
+Bootstrap начинается пустым: по умолчанию расширяем существующие capability specs и не создаём дубли без явного одобрения владельца.
+
