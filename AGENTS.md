@@ -19,6 +19,10 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 ⚠️ Сначала прочитайте [корневой AGENTS.md](/int/AGENTS.md).
 
+## Browser Attach Inheritance
+- Для сессий, стартующих из этого репозитория, правило frontend-диагностики через attached Chrome владельца обязательно.
+- Канонический policy и fallback-ограничения задаются только в `/int/AGENTS.md` (раздел `Frontend Browser Diagnostics Policy`) и наследуются без локальной переинтерпретации.
+- Headless/isolated fallback допустим только по явному разрешению владельца.
 # AGENTS — Leonid public site
 
 ## Allowed scope
@@ -82,3 +86,4 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - В git допускаются только шаблоны `*.env.example` и `*.example`.
 - Любые `*.env` и `config/runtime/*.env` запрещены в индексе.
 - Runtime-секреты хранятся только вне git (локальные env/secret-store).
+
