@@ -19,10 +19,10 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 ⚠️ Сначала прочитайте [корневой AGENTS.md](/int/AGENTS.md).
 
-## Browser Attach Inheritance
-- Для сессий, стартующих из этого репозитория, правило frontend-диагностики через attached Chrome владельца обязательно.
-- Канонический policy и fallback-ограничения задаются только в `/int/AGENTS.md` (раздел `Frontend Browser Diagnostics Policy`) и наследуются без локальной переинтерпретации.
-- Headless/isolated fallback допустим только по явному разрешению владельца.
+## Browser Runtime Inheritance
+- Для сессий, стартующих из этого репозитория, default frontend-диагностика и browser-proof выполняются через dedicated Firefox DevTools MCP runtime с persistent profiles.
+- Канонический policy, runtime layout и fallback-ограничения задаются только в `/int/AGENTS.md` (раздел `Frontend Browser Runtime Policy`) и наследуются без локальной переинтерпретации.
+- Attach к owner Chrome допустим только как documented fallback по blocker-case с явной фиксацией причины в handoff.
 # AGENTS — Leonid public site
 
 ## Allowed scope
