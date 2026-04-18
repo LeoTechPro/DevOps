@@ -17,7 +17,7 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 <!-- OPENSPEC:END -->
 
-⚠️ Сначала прочитайте [корневой AGENTS.md](/int/AGENTS.md).
+⚠️ Сначала прочитайте [repo AGENTS.md](../../../AGENTS.md).
 
 # AGENTS — Intelligent Data ITSM
 
