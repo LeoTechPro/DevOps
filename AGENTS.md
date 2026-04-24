@@ -61,13 +61,13 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - Канонические hosts: prod `vds.punkt-b.pro`, dev `vds.intdata.pro`.
 - Канонические пользователи: `intdata` основной, `codex` runtime agent, `leon` manual-only.
 - System roles и system tables Supabase нельзя менять.
-- Frontend-диагностика по умолчанию идёт через headless Firefox MCP с отдельными профилями; owner Chrome допустим только как documented fallback.
+- Frontend-диагностика и browser-proof по умолчанию идут через внутренний Codex Browser / Browser Use / in-app browser. Fallback только по фактическому blocker: `firefox-devtools`, затем `chrome-devtools`, затем standalone Playwright.
 - Если существует repo-local или tooling machine-readable policy file, прочитай его. Если referenced machine policy file отсутствует, зафиксируй это как blocker или assumption, а не считай его доступным.
 - Язык коммуникации — русский, если владелец явно не попросил иначе; фиксируй решения, blockers, verification и remaining risks.
 
 ## Политика frontend runtime
-- Для сессий, стартующих из этого репозитория, default frontend-диагностика и browser-proof выполняются через dedicated Firefox DevTools MCP runtime с persistent profiles.
-- Attach к owner Chrome допустим только как documented fallback по blocker-case с явной фиксацией причины в handoff.
+- Для сессий, стартующих из этого репозитория, default frontend-диагностика и browser-proof выполняются через внутренний Codex Browser / Browser Use / in-app browser.
+- Fallback допускается только по blocker-case с явной фиксацией причины в handoff: сначала `firefox-devtools`, затем `chrome-devtools`, затем standalone Playwright.
 # AGENTS — Leonid public site
 
 ## Allowed scope
