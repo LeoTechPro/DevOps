@@ -355,7 +355,7 @@ def main() -> int:
     if ctx["contour"] == "unmanaged":
         return 0
 
-    if event in {"SessionStart", "UserPromptSubmit"}:
+    if event == "SessionStart":
         text = context_text(ctx)
         if text:
             emit_context(event, text)
