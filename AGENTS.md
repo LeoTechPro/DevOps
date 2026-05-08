@@ -44,7 +44,7 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - Если код и спека расходятся, сначала исправить или согласовать spec path; запрещено молча изобретать contract behavior.
 
 ### Git, Multica и lock-гейты
-- Используй `$agent-issues` как источник истины для Multica issue-дисциплины, runtime `lockctl`, commit-гейты и движения worklog/status.
+- Используй `$agent-issues` как источник истины для Multica issue-дисциплины, runtime `coordctl`, commit-гейты и движения worklog/status.
 - Repo-local `AGENTS.md` может добавлять более строгие гейты конкретной области, но не должен дублировать полный Multica workflow.
 - Push, deploy и publication требуют явного разрешения владельца или прямой команды `push/publish`.
 - Работать только из чистого дерева, если владелец явно не разрешил работу поверх существующих несвязанных изменений; никогда не откатывать и не stage-ить несвязанные изменения пользователя.
@@ -103,8 +103,8 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 - решения, которые делают repo зависимым owner-контуром family backend.
 
 ## Lock и Multica gates
-- Используй `$agent-issues` как источник истины для Multica issue-дисциплины, runtime `lockctl`, commit-гейты и движения worklog/status.
-- Любые файловые правки в этом repo запрещены без предварительного `lockctl acquire` по конкретному файлу; после завершения лок обязательно снимается через `lockctl release-path` или `lockctl release-issue`.
+- Используй `$agent-issues` как источник истины для Multica issue-дисциплины, runtime `coordctl`, commit-гейты и движения worklog/status.
+- Любые файловые правки в этом repo запрещены без предварительного `coordctl` intent lease по конкретному файлу/region; после завершения coordctl session/leases обязательно снимаются через `coordctl_release`/`coordctl_cleanup`.
 - Repo-local правила ниже могут ужесточать git/commit/publish flow, но не должны дублировать полный Multica workflow.
 ## Разделение документации
 

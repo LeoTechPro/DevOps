@@ -4,7 +4,7 @@
 
 ## Source of truth
 - Назначение репозитория, ownership и process-specific ограничения живут в `../AGENTS.md` и `../README.md`.
-- Общие правила работы, lockctl и mode-lattice живут в repo root `../AGENTS.md`.
+- Общие правила работы, coordctl и mode-lattice живут в repo root `../AGENTS.md`.
 - `openspec/specs/**` и `openspec/changes/**` в этом репозитории считаются вспомогательным bootstrap-контуром, а не заменой root-документации.
 
 ## TL;DR
@@ -12,7 +12,7 @@
 - `SPEC-MUTATION` допустим только для явно одобренной работы по `public API/contracts`, `schema/DB`, границам capability или breaking changes.
 - В обычном `EXECUTE` используйте локальный repo context (`README.md`, `AGENTS.md`, код), а не OpenSpec lifecycle.
 - Если релевантный spec/change уже существует, его можно читать и обновлять только в пределах согласованного scope.
-- Перед любой файловой мутацией соблюдайте repo-local и machine-wide `lockctl` policy.
+- Перед любой файловой мутацией соблюдайте repo-local и machine-wide `coordctl` policy.
 - Перед любым локальным commit по spec/process-изменениям обязательно добавить в индекс новые файлы текущего scope и повторно выполнить `git add` для уже staged путей после каждой дополнительной правки; commit по устаревшему состоянию индекса запрещён.
 
 ## Modes
