@@ -29,13 +29,7 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 - [**Docs**](./docs/) — статьи, шпаргалки и техническая документация.
 - [**Lab**](./lab/) — практические лаборатории, примеры кода и интеграции.
 - [**Edu**](./edu/) — учебные курсы и выполненные задания.
-- [**Archive**](./archive/) — архивные проекты, старые скрипты и decommissioned code snapshot кейсы ERP/ITSM.
-
-## Git Branch Policy
-
-- для каждого checkout/worktree локально включаем `git config core.hooksPath .githooks`, чтобы активировать tracked guardrail из `.githooks/pre-push`;
-- любой push в удалённый `main` требует явный `ALLOW_MAIN_PUSH=1` и допускается только из локальной `main`;
-- push в `dev` и другие non-main branches этим repo-local guardrail не ограничивается.
+- [**Archive**](./archive/) — архивные проекты, старые скрипты и decommissioned code snapshot кейсы.
 
 ## Публичные проекты
 
@@ -70,19 +64,4 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 ### `archive/hecs` и `archive/hecs-deploy`
 
 - `archive/hecs` — legacy Django-проект HECS (исходники + историческая SQLite БД).
-- `archive/hecs-deploy` — deployment-контур для `hecs.intdata.pro` (`Dockerfile`, `docker-compose.yml`, `nginx-hecs.conf`, `.env.example`, runbook).
-- Публикация рассчитана на `vds.intdata.pro` через `docker compose` + `nginx` + `certbot`.
-
-### `openspec/changes/`
-
-#### OpenSpec Changes
-
-Active proposals хранятся в подкаталогах `openspec/changes/*`.
-Bootstrap начинается пустым: новые `change-id` создаются только когда repo-local policy и явное одобрение владельца разрешают `SPEC-MUTATION`.
-
-### `openspec/specs/`
-
-#### OpenSpec Specifications
-
-Текущие capability specs этого репозитория хранятся в подкаталогах `openspec/specs/*`.
-Bootstrap начинается пустым: по умолчанию расширяем существующие capability specs и не создаём дубли без явного одобрения владельца.
+- `archive/hecs-deploy` — обезличенный deployment template для запуска legacy Django-проекта через Docker Compose и reverse proxy.

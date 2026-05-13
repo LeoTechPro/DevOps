@@ -49,7 +49,7 @@ DEBUG = _env_bool('DEBUG', default=False)
 
 ALLOWED_HOSTS = _env_list(
     'ALLOWED_HOSTS',
-    default='hecs.intdata.pro,localhost,127.0.0.1'
+    default='example.com,localhost,127.0.0.1'
 )
 
 

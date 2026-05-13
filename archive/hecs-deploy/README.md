@@ -1,29 +1,30 @@
-# Hecs Legacy Deployment (Docker Compose)
+# Legacy Django Deployment Template (Docker Compose)
 
-Этот контур предназначен для запуска legacy Django-сервиса `hecs` на `hecs.intdata.pro`.
+Этот контур показывает пример запуска legacy Django-сервиса через Docker Compose и reverse proxy.
+Значения домена, путей, портов, email и имени сервиса ниже условные; перед реальным использованием замените их на свои.
 
 ## 1. Подготовка на сервере
 
 ```bash
-sudo mkdir -p /opt/hecs
-sudo chown -R $USER:$USER /opt/hecs
+sudo mkdir -p /opt/example-app
+sudo chown -R $USER:$USER /opt/example-app
 ```
 
-Скопируйте в `/opt/hecs` каталоги:
+Скопируйте в `/opt/example-app` каталоги:
 - `hecs` (из `archive/hecs`)
 - `hecs-deploy` (из `archive/hecs-deploy`)
 
 Ожидаемая структура:
 
 ```text
-/opt/hecs/hecs
-/opt/hecs/hecs-deploy
+/opt/example-app/hecs
+/opt/example-app/hecs-deploy
 ```
 
 ## 2. Runtime env
 
 ```bash
-cd /opt/hecs/hecs-deploy
+cd /opt/example-app/hecs-deploy
 cp .env.example .env
 ```
 
@@ -32,7 +33,7 @@ cp .env.example .env
 ## 3. Запуск контейнера
 
 ```bash
-cd /opt/hecs/hecs-deploy
+cd /opt/example-app/hecs-deploy
 docker compose up -d --build
 docker compose exec web python manage.py migrate
 docker compose exec web python manage.py collectstatic --noinput
@@ -43,8 +44,8 @@ docker compose ps
 ## 4. Nginx
 
 ```bash
-sudo cp /opt/hecs/hecs-deploy/nginx-hecs.conf /etc/nginx/sites-available/hecs.intdata.pro.conf
-sudo ln -sf /etc/nginx/sites-available/hecs.intdata.pro.conf /etc/nginx/sites-enabled/hecs.intdata.pro.conf
+sudo cp /opt/example-app/hecs-deploy/nginx-hecs.conf /etc/nginx/sites-available/example-app.conf
+sudo ln -sf /etc/nginx/sites-available/example-app.conf /etc/nginx/sites-enabled/example-app.conf
 sudo nginx -t
 sudo systemctl reload nginx
 ```
@@ -53,14 +54,14 @@ sudo systemctl reload nginx
 
 ```bash
 sudo apt-get update && sudo apt-get install -y apache2-utils
-sudo htpasswd -c /etc/nginx/.htpasswd-hecs-admin <admin_user>
+sudo htpasswd -c /etc/nginx/.htpasswd-example-admin <admin_user>
 sudo nginx -t && sudo systemctl reload nginx
 ```
 
 ## 5. TLS (certbot)
 
 ```bash
-sudo certbot --nginx -d hecs.intdata.pro --redirect -m admin@intdata.pro --agree-tos --no-eff-email
+sudo certbot --nginx -d example.com --redirect -m admin@example.com --agree-tos --no-eff-email
 ```
 
 Проверка автопродления:
@@ -73,6 +74,6 @@ systemctl status certbot.timer
 
 ```bash
 curl -I http://127.0.0.1:18080/healthz
-curl -I https://hecs.intdata.pro/healthz
+curl -I https://example.com/healthz
 docker compose logs --tail=100 web
 ```

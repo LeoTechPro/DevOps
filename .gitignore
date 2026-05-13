@@ -29,8 +29,3 @@ config/runtime/*.env
 !**/*.env.example
 !*.example
 !**/*.example
-
-# Graphify generated state
-graphify-out/cache/
-graphify-out/manifest.json
-graphify-out/cost.json
