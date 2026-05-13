@@ -29,6 +29,7 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 - [**Docs**](./docs/) — статьи, шпаргалки и техническая документация.
 - [**Lab**](./lab/) — практические лаборатории, примеры кода и интеграции.
 - [**Edu**](./edu/) — учебные курсы и выполненные задания.
+- [**HECS**](./hecs/) — статичная карта учебных олимпиадных тем.
 - [**Archive**](./archive/) — архивные проекты, старые скрипты и decommissioned code snapshot кейсы.
 
 ## Публичные проекты
@@ -65,3 +66,11 @@ I build reliable technical contours: infrastructure, automation, monitoring, age
 
 - `archive/hecs` — legacy Django-проект HECS (исходники + историческая SQLite БД).
 - `archive/hecs-deploy` — обезличенный deployment template для запуска legacy Django-проекта через Docker Compose и reverse proxy.
+
+Статичная публичная версия HECS генерируется в `hecs/` командой:
+
+```powershell
+python .\scripts\build_hecs_static.py
+```
+
+Генератор собирает публичный учебный каталог: страницы тем, карту разделов и ссылки на материалы.

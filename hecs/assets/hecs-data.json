@@ -1,0 +1,3874 @@
+{
+  "themes": [
+    {
+      "id": 517,
+      "name": "Разбор выражений",
+      "x": 0,
+      "y": 5,
+      "color": "str"
+    },
+    {
+      "id": 518,
+      "name": "Система независимых множеств",
+      "x": 0,
+      "y": 6,
+      "color": "data"
+    },
+    {
+      "id": 519,
+      "name": "Сортировка кучей",
+      "x": 0,
+      "y": 7,
+      "color": "data"
+    },
+    {
+      "id": 520,
+      "name": "Очередь с приоритетами",
+      "x": 0,
+      "y": 8,
+      "color": "data"
+    },
+    {
+      "id": 620,
+      "name": "Частичные суммы",
+      "x": 0,
+      "y": 9,
+      "color": "data"
+    },
+    {
+      "id": 621,
+      "name": "Корневая декомпозиция",
+      "x": 0,
+      "y": 10,
+      "color": "data"
+    },
+    {
+      "id": 622,
+      "name": "Разреженные таблицы",
+      "x": 0,
+      "y": 11,
+      "color": "data"
+    },
+    {
+      "id": 529,
+      "name": "Дерево отрезков",
+      "x": 0,
+      "y": 12,
+      "color": "data"
+    },
+    {
+      "id": 524,
+      "name": "ДП по изломанному профилю",
+      "x": 1,
+      "y": 4,
+      "color": "dp"
+    },
+    {
+      "id": 516,
+      "name": "Регулярные выражения",
+      "x": 1,
+      "y": 5,
+      "color": "str"
+    },
+    {
+      "id": 526,
+      "name": "Конечные автоматы",
+      "x": 1,
+      "y": 6,
+      "color": "str"
+    },
+    {
+      "id": 527,
+      "name": "Поиск подстроки в строке",
+      "x": 1,
+      "y": 7,
+      "color": "str"
+    },
+    {
+      "id": 528,
+      "name": "Куча",
+      "x": 1,
+      "y": 8,
+      "color": "data"
+    },
+    {
+      "id": 523,
+      "name": "Дерево поиска",
+      "x": 1,
+      "y": 9,
+      "color": "data"
+    },
+    {
+      "id": 530,
+      "name": "Остатки",
+      "x": 1,
+      "y": 10,
+      "color": "nums"
+    },
+    {
+      "id": 531,
+      "name": "Быстрое преобразование Фурье",
+      "x": 1,
+      "y": 11,
+      "color": "nums"
+    },
+    {
+      "id": 624,
+      "name": "Декартово дерево",
+      "x": 1,
+      "y": 12,
+      "color": "data"
+    },
+    {
+      "id": 625,
+      "name": "Декартово дерево по неявному ключу",
+      "x": 1,
+      "y": 13,
+      "color": "data"
+    },
+    {
+      "id": 532,
+      "name": "Алгоритм Грехэма",
+      "x": 2,
+      "y": 0,
+      "color": "geom"
+    },
+    {
+      "id": 533,
+      "name": "Уравнение прямой",
+      "x": 2,
+      "y": 1,
+      "color": "eq"
+    },
+    {
+      "id": 534,
+      "name": "Решение систем линейных уравнений",
+      "x": 2,
+      "y": 2,
+      "color": "eq"
+    },
+    {
+      "id": 535,
+      "name": "Решение линейных, квадратных уравнений",
+      "x": 2,
+      "y": 3,
+      "color": "eq"
+    },
+    {
+      "id": 525,
+      "name": "ДП по профилю",
+      "x": 2,
+      "y": 4,
+      "color": "dp"
+    },
+    {
+      "id": 537,
+      "name": "ДП по подмножествам",
+      "x": 2,
+      "y": 5,
+      "color": "dp"
+    },
+    {
+      "id": 538,
+      "name": "ДП по подотрезкам",
+      "x": 2,
+      "y": 6,
+      "color": "dp"
+    },
+    {
+      "id": 623,
+      "name": "Множества и словари",
+      "x": 2,
+      "y": 7,
+      "color": "data"
+    },
+    {
+      "id": 539,
+      "name": "Связный список",
+      "x": 2,
+      "y": 8,
+      "color": "data"
+    },
+    {
+      "id": 541,
+      "name": "Системы счисления",
+      "x": 2,
+      "y": 9,
+      "color": "nums"
+    },
+    {
+      "id": 542,
+      "name": "\"Длинная\" арифметика",
+      "x": 2,
+      "y": 10,
+      "color": "nums"
+    },
+    {
+      "id": 543,
+      "name": "Быстрое возведение в степень",
+      "x": 2,
+      "y": 11,
+      "color": "nums"
+    },
+    {
+      "id": 544,
+      "name": "Поиск следующего комбинаторного объекта",
+      "x": 2,
+      "y": 12,
+      "color": "comb"
+    },
+    {
+      "id": 545,
+      "name": "Поиск КО по номеру и номера по объекту",
+      "x": 2,
+      "y": 13,
+      "color": "comb"
+    },
+    {
+      "id": 546,
+      "name": "Выпуклая оболочка",
+      "x": 3,
+      "y": 1,
+      "color": "geom"
+    },
+    {
+      "id": 547,
+      "name": "Многоугольники. Площадь многоугольников",
+      "x": 3,
+      "y": 2,
+      "color": "geom"
+    },
+    {
+      "id": 548,
+      "name": "Векторное произведение. Площадь треугольника",
+      "x": 3,
+      "y": 3,
+      "color": "geom"
+    },
+    {
+      "id": 549,
+      "name": "Векторы и декартовы координаты",
+      "x": 3,
+      "y": 4,
+      "color": "geom"
+    },
+    {
+      "id": 536,
+      "name": "ДП на деревьях",
+      "x": 3,
+      "y": 5,
+      "color": "dp"
+    },
+    {
+      "id": 551,
+      "name": "Задача о рюкзаке",
+      "x": 3,
+      "y": 6,
+      "color": "dp"
+    },
+    {
+      "id": 552,
+      "name": "ДП с двумя параметрами",
+      "x": 3,
+      "y": 7,
+      "color": "dp"
+    },
+    {
+      "id": 540,
+      "name": "Дек",
+      "x": 3,
+      "y": 8,
+      "color": "data"
+    },
+    {
+      "id": 554,
+      "name": "Очередь",
+      "x": 3,
+      "y": 9,
+      "color": "data"
+    },
+    {
+      "id": 555,
+      "name": "Алгоритм Евклида",
+      "x": 3,
+      "y": 10,
+      "color": "nums"
+    },
+    {
+      "id": 556,
+      "name": "Решето Эратосфена",
+      "x": 3,
+      "y": 11,
+      "color": "nums"
+    },
+    {
+      "id": 557,
+      "name": "Количество комбинаторных объектов",
+      "x": 3,
+      "y": 12,
+      "color": "comb"
+    },
+    {
+      "id": 583,
+      "name": "Сложность алгоритмов",
+      "x": 3,
+      "y": 13,
+      "color": "comb"
+    },
+    {
+      "id": 585,
+      "name": "Множества. Формула включения-исключения",
+      "x": 3,
+      "y": 14,
+      "color": "comb"
+    },
+    {
+      "id": 560,
+      "name": "Алгоритм Джарвиса",
+      "x": 4,
+      "y": 0,
+      "color": "geom"
+    },
+    {
+      "id": 561,
+      "name": "Лучи и отрезки",
+      "x": 4,
+      "y": 1,
+      "color": "geom"
+    },
+    {
+      "id": 562,
+      "name": "Взаимное расположение точек и прямых",
+      "x": 4,
+      "y": 2,
+      "color": "geom"
+    },
+    {
+      "id": 563,
+      "name": "Скалярное произведение",
+      "x": 4,
+      "y": 3,
+      "color": "geom"
+    },
+    {
+      "id": 564,
+      "name": "Вещественные числа",
+      "x": 4,
+      "y": 4,
+      "color": "geom"
+    },
+    {
+      "id": 550,
+      "name": "Теория расписаний",
+      "x": 4,
+      "y": 5,
+      "color": "dp"
+    },
+    {
+      "id": 566,
+      "name": "ДП на таблицах",
+      "x": 4,
+      "y": 6,
+      "color": "dp"
+    },
+    {
+      "id": 567,
+      "name": "Одномерное ДП",
+      "x": 4,
+      "y": 7,
+      "color": "dp"
+    },
+    {
+      "id": 553,
+      "name": "Стек",
+      "x": 4,
+      "y": 8,
+      "color": "data"
+    },
+    {
+      "id": 569,
+      "name": "Проверка на простоту",
+      "x": 4,
+      "y": 9,
+      "color": "nums"
+    },
+    {
+      "id": 570,
+      "name": "Разложение числа на простые множители",
+      "x": 4,
+      "y": 10,
+      "color": "nums"
+    },
+    {
+      "id": 571,
+      "name": "Основные правила комбинаторики",
+      "x": 4,
+      "y": 11,
+      "color": "comb"
+    },
+    {
+      "id": 573,
+      "name": "Перебор комбинаторных объектов",
+      "x": 4,
+      "y": 12,
+      "color": "comb"
+    },
+    {
+      "id": 572,
+      "name": "Биномиальные коэффициенты",
+      "x": 4,
+      "y": 13,
+      "color": "comb"
+    },
+    {
+      "id": 575,
+      "name": "Окружности",
+      "x": 5,
+      "y": 2,
+      "color": "geom"
+    },
+    {
+      "id": 576,
+      "name": "Угол. atan2",
+      "x": 5,
+      "y": 3,
+      "color": "geom"
+    },
+    {
+      "id": 577,
+      "name": "Клеточная геометрия",
+      "x": 5,
+      "y": 4,
+      "color": "geom"
+    },
+    {
+      "id": 578,
+      "name": "Каркасы: алгоритм Краскала",
+      "x": 5,
+      "y": 5,
+      "color": "graph"
+    },
+    {
+      "id": 565,
+      "name": "Жадные алгоритмы",
+      "x": 5,
+      "y": 6,
+      "color": "dp"
+    },
+    {
+      "id": 580,
+      "name": "Восстановление ответа в ДП",
+      "x": 5,
+      "y": 7,
+      "color": "dp"
+    },
+    {
+      "id": 581,
+      "name": "Динамическое программирование",
+      "x": 5,
+      "y": 8,
+      "color": "dp"
+    },
+    {
+      "id": 582,
+      "name": "START",
+      "x": 5,
+      "y": 9,
+      "color": "start"
+    },
+    {
+      "id": 592,
+      "name": "Рекурсия",
+      "x": 5,
+      "y": 10,
+      "color": "rec"
+    },
+    {
+      "id": 559,
+      "name": "Перебор вложенными циклами",
+      "x": 5,
+      "y": 11,
+      "color": "rec"
+    },
+    {
+      "id": 574,
+      "name": "Рекурсивный перебор",
+      "x": 5,
+      "y": 12,
+      "color": "rec"
+    },
+    {
+      "id": 586,
+      "name": "Гамильтонов цикл",
+      "x": 5,
+      "y": 13,
+      "color": "rec"
+    },
+    {
+      "id": 588,
+      "name": "Каркасы: алгоритм Прима",
+      "x": 6,
+      "y": 4,
+      "color": "graph"
+    },
+    {
+      "id": 597,
+      "name": "Алгоритм Дейкстры",
+      "x": 6,
+      "y": 5,
+      "color": "graph"
+    },
+    {
+      "id": 590,
+      "name": "ДП в играх",
+      "x": 6,
+      "y": 6,
+      "color": "dp"
+    },
+    {
+      "id": 591,
+      "name": "Игры и выигрышные стратегии",
+      "x": 6,
+      "y": 7,
+      "color": "dp"
+    },
+    {
+      "id": 600,
+      "name": "Хранение графа",
+      "x": 6,
+      "y": 8,
+      "color": "graph"
+    },
+    {
+      "id": 593,
+      "name": "Поиск в массиве",
+      "x": 6,
+      "y": 9,
+      "color": "search"
+    },
+    {
+      "id": 594,
+      "name": "Квадратичные сортировки",
+      "x": 6,
+      "y": 10,
+      "color": "sort"
+    },
+    {
+      "id": 595,
+      "name": "Подсчет. Сортировка подсчетом",
+      "x": 6,
+      "y": 11,
+      "color": "sort"
+    },
+    {
+      "id": 587,
+      "name": "Перебор с отсечениями",
+      "x": 6,
+      "y": 12,
+      "color": "rec"
+    },
+    {
+      "id": 596,
+      "name": "Алгоритм Форда-Фалкерсона",
+      "x": 7,
+      "y": 3,
+      "color": "graph"
+    },
+    {
+      "id": 598,
+      "name": "Поиск в ширину",
+      "x": 7,
+      "y": 6,
+      "color": "graph"
+    },
+    {
+      "id": 599,
+      "name": "Кратчайшие пути в графе",
+      "x": 7,
+      "y": 7,
+      "color": "graph"
+    },
+    {
+      "id": 610,
+      "name": "Поиск в глубину",
+      "x": 7,
+      "y": 8,
+      "color": "graph"
+    },
+    {
+      "id": 601,
+      "name": "Однопроходные алгоритмы",
+      "x": 7,
+      "y": 9,
+      "color": "search"
+    },
+    {
+      "id": 602,
+      "name": "Бинарный поиск в упорядоченном массиве",
+      "x": 7,
+      "y": 10,
+      "color": "search"
+    },
+    {
+      "id": 603,
+      "name": "Быстрая сортировка",
+      "x": 7,
+      "y": 11,
+      "color": "sort"
+    },
+    {
+      "id": 604,
+      "name": "Сортировка слиянием",
+      "x": 7,
+      "y": 12,
+      "color": "sort"
+    },
+    {
+      "id": 605,
+      "name": "Паросочетания",
+      "x": 8,
+      "y": 2,
+      "color": "graph"
+    },
+    {
+      "id": 606,
+      "name": "Потоки",
+      "x": 8,
+      "y": 3,
+      "color": "graph"
+    },
+    {
+      "id": 607,
+      "name": "Алгоритм Форда-Беллмана",
+      "x": 8,
+      "y": 4,
+      "color": "graph"
+    },
+    {
+      "id": 608,
+      "name": "Алгоритм Флойда",
+      "x": 8,
+      "y": 5,
+      "color": "graph"
+    },
+    {
+      "id": 609,
+      "name": "Эйлеров цикл",
+      "x": 8,
+      "y": 6,
+      "color": "graph"
+    },
+    {
+      "id": 615,
+      "name": "Топологическая сортировка",
+      "x": 8,
+      "y": 7,
+      "color": "graph"
+    },
+    {
+      "id": 611,
+      "name": "Другие линейные алгоритмы",
+      "x": 8,
+      "y": 8,
+      "color": "search"
+    },
+    {
+      "id": 612,
+      "name": "Вещественный бинарный поиск",
+      "x": 8,
+      "y": 9,
+      "color": "search"
+    },
+    {
+      "id": 613,
+      "name": "Бинарный поиск по ответу",
+      "x": 8,
+      "y": 10,
+      "color": "search"
+    },
+    {
+      "id": 614,
+      "name": "Порядковые статистики",
+      "x": 8,
+      "y": 11,
+      "color": "sort"
+    },
+    {
+      "id": 616,
+      "name": "Сканирующая прямая",
+      "x": 9,
+      "y": 8,
+      "color": "search"
+    },
+    {
+      "id": 617,
+      "name": "Метод двух указателей",
+      "x": 9,
+      "y": 9,
+      "color": "search"
+    },
+    {
+      "id": 618,
+      "name": "Тернарный поиск",
+      "x": 9,
+      "y": 10,
+      "color": "search"
+    }
+  ],
+  "references": {
+    "516": [
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Регулярные выражения",
+        "href": "http://habrahabr.ru/post/115825/"
+      }
+    ],
+    "517": [
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Разбор выражений",
+        "href": "http://foxford.ru/wiki/informatika/obratnaya-polskaya-notatsiya"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Разбор выражений",
+        "href": "http://e-maxx.ru/algo/expressions_parsing"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Разбор выражений",
+        "href": "http://foxford.ru/wiki/informatika/obratnaya-polskaya-notatsiya"
+      }
+    ],
+    "518": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Система независимых множеств",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-428"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Краскала с СНМ",
+        "href": "http://e-maxx.ru/algo/mst_kruskal_with_dsu"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Система независимых множеств",
+        "href": "http://e-maxx.ru/algo/dsu"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Система независимых множеств",
+        "href": "http://habrahabr.ru/post/104772/"
+      }
+    ],
+    "519": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Куча",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-350"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Сортировка кучей",
+        "href": "http://habrahabr.ru/post/112222/"
+      }
+    ],
+    "520": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Куча",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-350"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Очередь с приоритетом",
+        "href": "http://hardfire.ru/heap"
+      }
+    ],
+    "523": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Дерево поиска",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-419"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Рандомизированное дерево поиска",
+        "href": "http://habrahabr.ru/post/145388/"
+      }
+    ],
+    "524": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП по профилю",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-426"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "525": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП по профилю",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-426"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "ДП по профилю",
+        "href": "http://e-maxx.ru/algo/profile_dynamics"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "526": [
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Конечные автоматы",
+        "href": "http://habrahabr.ru/post/141503/"
+      }
+    ],
+    "527": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Поиск подстроки в строке",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-434"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Поиск подстроки в строке",
+        "href": "http://habrahabr.ru/post/113266/"
+      }
+    ],
+    "528": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Куча",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-350"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Куча",
+        "href": "http://foxford.ru/wiki/informatika/kucha-heap"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Рандомизированная куча",
+        "href": "http://e-maxx.ru/algo/randomized_heap"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Куча",
+        "href": "http://foxford.ru/wiki/informatika/kucha-heap"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Куча",
+        "href": "http://habrahabr.ru/post/112222/"
+      }
+    ],
+    "529": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Дерево отрезков",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-420"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Минимум на отрезке",
+        "href": "http://sis.khashaev.ru/2013/july/a/mnpAaPpLP7U/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Дерево отрезков",
+        "href": "http://e-maxx.ru/algo/segment_tree"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Дерево отрезков",
+        "href": "http://habrahabr.ru/post/115026/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "ДО с изменением элемента",
+        "href": "http://habrahabr.ru/post/115026/"
+      }
+    ],
+    "530": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Остатки",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-433"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Остатки",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/BIwzyPBgU6Y/"
+      }
+    ],
+    "531": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Быстрое преобразование Фурье",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-16152"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Быстрое преобразование Фурье",
+        "href": "http://e-maxx.ru/algo/fft_multiply"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Умножение многочленов",
+        "href": "http://habrahabr.ru/post/113642/"
+      }
+    ],
+    "532": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Грехэма",
+        "href": "http://e-maxx.ru/algo/convex_hull_graham"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Алгоритм Грехэма",
+        "href": "http://habrahabr.ru/post/144921/"
+      }
+    ],
+    "533": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Уравнение прямой",
+        "href": "http://e-maxx.ru/algo/segment_to_line"
+      }
+    ],
+    "534": [
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Метод Гаусса",
+        "href": "http://e-maxx.ru/algo/linear_systems_gauss"
+      }
+    ],
+    "536": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП на графах",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-425"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "537": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП по подмножествам",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-447"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "538": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП по подотрезкам",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-400"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "ДП по подотрезкам",
+        "href": "http://habrahabr.ru/post/112386/"
+      }
+    ],
+    "539": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Связный список",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-439"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Сортировка на односвязном списке",
+        "href": "http://habrahabr.ru/post/247053/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Список",
+        "href": "http://hardfire.ru/list"
+      }
+    ],
+    "540": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Дек",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-363"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "collections.deque в Python",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/DgGSq4IKOA4/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "BFS 0-1",
+        "href": "http://habrahabr.ru/post/200560/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Дек",
+        "href": "http://hardfire.ru/deque"
+      }
+    ],
+    "541": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Системы счисления",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-357"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Системы счисления",
+        "href": "http://foxford.ru/wiki/informatika/dvoichnaya-sistema-schisleniya"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Перевод двоичных чисел в другие системы счисления",
+        "href": "http://foxford.ru/wiki/informatika/perevod-dvoichnyh-chisel-v-drugie-sistemy-schisleniya"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Операции с двоичными числами",
+        "href": "http://foxford.ru/wiki/informatika/slozhenie-vychitanie-i-umnozhenie-dvoichnyh-chisel"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Перевод в десятичную систему",
+        "href": "http://foxford.ru/wiki/informatika/pozitsionnye-sistemy-schisleniya"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Операции в позиционных системах счисления",
+        "href": "http://foxford.ru/wiki/informatika/operatsii-v-pozitsionnyh-sistemah-schisleniya"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Системы счисления",
+        "href": "http://foxford.ru/wiki/informatika/dvoichnaya-sistema-schisleniya"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Перевод двоичных чисел в другие системы счисления",
+        "href": "http://foxford.ru/wiki/informatika/perevod-dvoichnyh-chisel-v-drugie-sistemy-schisleniya"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Операции с двоичными числами",
+        "href": "http://foxford.ru/wiki/informatika/slozhenie-vychitanie-i-umnozhenie-dvoichnyh-chisel"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Перевод в десятичную систему",
+        "href": "http://foxford.ru/wiki/informatika/pozitsionnye-sistemy-schisleniya"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Системы счисления",
+        "href": "http://habrahabr.ru/post/124395/"
+      }
+    ],
+    "542": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Длинная \"арифметика\"",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-383"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Реализация на С++",
+        "href": "http://habrahabr.ru/post/172285/"
+      }
+    ],
+    "543": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Быстрое возведение в степень",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-455"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Быстрое возведение в степень",
+        "href": "http://e-maxx.ru/algo/binary_pow"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Быстрое возведение в степень",
+        "href": "http://habrahabr.ru/post/205318/"
+      }
+    ],
+    "544": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Комбинаторные структуры",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-367"
+      }
+    ],
+    "545": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Поиск КО по номеру и номера по объекту",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-453"
+      }
+    ],
+    "546": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Выпуклая оболочка",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Выпуклая оболочка",
+        "href": "http://habrahabr.ru/post/144921/"
+      }
+    ],
+    "547": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Многоугольники. Площадь многоугольников",
+        "href": "http://e-maxx.ru/algo/polygon_area"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Принадлежность точки выпуклому многоугольнику",
+        "href": "http://e-maxx.ru/algo/pt_in_polygon"
+      }
+    ],
+    "548": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Векторное произведение. Площадь треугольника",
+        "href": "http://e-maxx.ru/algo/euler_path"
+      }
+    ],
+    "549": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      }
+    ],
+    "550": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Теория расписаний",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-18213"
+      }
+    ],
+    "551": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Задача о рюкзаке",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-413"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Задача о рюкзаке",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Задача о рюкзаке",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-ukladki-ryukzaka"
+      }
+    ],
+    "552": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП с двумя параметрами",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-401"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Наибольшая общая подпоследовательность",
+        "href": "http://foxford.ru/wiki/informatika/naibolshaya-obschaya-podposledovatelnost"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Таблицы",
+        "href": "http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-tablitsy"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Наибольшая общая подпоследовательность",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/0BtGJkm84Ow/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Наибольшая общая подпоследовательность: восстановление ответа",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/uUVwRJcTbU4/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Наибольшая возрастющая подпоследовательность: сведение к НОП",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/KQcyVlXYnGA/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Наибольшая возрастающая последовательность",
+        "href": "http://e-maxx.ru/algo/longest_increasing_subseq_log"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Наибольшая общая подпоследовательность",
+        "href": "http://foxford.ru/wiki/informatika/naibolshaya-obschaya-podposledovatelnost"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Таблицы",
+        "href": "http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-tablitsy"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "553": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Стек",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-362"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Стек",
+        "href": "http://foxford.ru/wiki/informatika/stek"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Стек",
+        "href": "http://foxford.ru/wiki/informatika/stek"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Персистентный стек",
+        "href": "http://habrahabr.ru/post/113585/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Стек с минимумом",
+        "href": "http://hardfire.ru/stack_min"
+      }
+    ],
+    "554": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Очередь",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-361"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Python",
+        "href": "http://foxford.ru/wiki/informatika/ochered-na-python"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Очередь",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/fdRbuT-tLYA/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Реализация на кольцевом списке",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/NBHz-g-OVwg/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Очередь",
+        "href": "http://foxford.ru/wiki/informatika/ochered"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Python",
+        "href": "http://foxford.ru/wiki/informatika/ochered-na-python"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Персистентная очередь",
+        "href": "http://habrahabr.ru/post/113585/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Очередь с минимумом",
+        "href": "http://hardfire.ru/queue_min"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 7,
+        "target": "Pythontutor",
+        "target_color": "pythontutor_ref",
+        "name": "Очередь",
+        "href": "http://pythontutor.ru/lessons/queue/"
+      }
+    ],
+    "555": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Алгоритм Евклида",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-355"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Евклида",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-evklida-python"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "НОД и НОК",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/lwUfAa0eCdo/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Алгоритм Евклида",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/2MBSsJ0TEMg/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Евклида",
+        "href": "http://e-maxx.ru/algo/euclid_algorithm"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Евклида",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-evklida-python"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Сравнение разных алгоритмов вычисления НОД",
+        "href": "http://habrahabr.ru/post/205106/"
+      }
+    ],
+    "556": [
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Решето Эратосфена",
+        "href": "http://foxford.ru/wiki/informatika/resheto-eratosfena"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Решето Эратосфена",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/BIwzyPBgU6Y/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Решето Эратосфена",
+        "href": "http://e-maxx.ru/algo/eratosthenes_sieve"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Решето Эратосфена",
+        "href": "http://foxford.ru/wiki/informatika/resheto-eratosfena"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Решето Эратосфена",
+        "href": "http://habrahabr.ru/post/91112/"
+      }
+    ],
+    "557": [
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Количество комбинаторных объектов",
+        "href": "http://foxford.ru/wiki/informatika/podschet-chisla-kombinatornyh-posledovatelnostey"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Количество комбинаторных объектов",
+        "href": "http://foxford.ru/wiki/informatika/podschet-chisla-kombinatornyh-posledovatelnostey"
+      }
+    ],
+    "559": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Простые задачи на перебор",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-385"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Перебор вложенными циклами",
+        "href": "http://foxford.ru/wiki/informatika/polnyy-perebor-s-ispolzovaniem-tsiklov"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Перебор вложенными циклами",
+        "href": "http://foxford.ru/wiki/informatika/polnyy-perebor-s-ispolzovaniem-tsiklov"
+      }
+    ],
+    "560": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Многоугольники. Выпуклые оболочки",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-407"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Алгоритм Джарвиса",
+        "href": "http://habrahabr.ru/post/144921/"
+      }
+    ],
+    "561": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      }
+    ],
+    "562": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Пересечение отрезков",
+        "href": "http://e-maxx.ru/algo/segments_intersection_checking"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Точка пересечения прямых",
+        "href": "http://e-maxx.ru/algo/lines_intersection"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Точка пересечения отрезков",
+        "href": "http://e-maxx.ru/algo/segments_intersection"
+      }
+    ],
+    "563": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      }
+    ],
+    "564": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Вещественные числа",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-414"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Вещественные числа",
+        "href": "http://habrahabr.ru/company/xakep/blog/257897/"
+      }
+    ],
+    "565": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Жадные алгоритмы",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-427"
+      }
+    ],
+    "566": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП на таблицах",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-399"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "ДП на таблицах",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/87h-mqcg1-A/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "567": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Одномерное ДП",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-397"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Наилучший способ",
+        "href": "http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-nailuchshiy-sposob"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Количество способов",
+        "href": "http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-kolichestvo-sposobov"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Рекурсия с запоминанием. Числа Фибоначчи",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/38WrqoMIGdk/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Задача о кузнечике",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/Rh9RHwH5Vj8/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Наилучший способ",
+        "href": "http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-nailuchshiy-sposob"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Количество способов",
+        "href": "http://foxford.ru/wiki/informatika/odnomernoe-dinamicheskoe-programmirovanie-kolichestvo-sposobov"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Динамическое программирование",
+        "href": "http://habrahabr.ru/post/191498/"
+      }
+    ],
+    "569": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Проверка на простоту",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-384"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Проверка на простоту",
+        "href": "http://foxford.ru/wiki/informatika/proverka-prostoty-pereborom-deliteley"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Проверка на простоту",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/lK2k26ATt38/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Проверка на простоту",
+        "href": "http://foxford.ru/wiki/informatika/proverka-prostoty-pereborom-deliteley"
+      }
+    ],
+    "570": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Разложение числа на простые множители",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-384"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Разложение числа на простые множители",
+        "href": "http://foxford.ru/wiki/informatika/faktorizatsiya-pereborom-deliteley"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Разложение числа на простые множители",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/RdxW0PTgv2s/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Разложение числа на простые множители",
+        "href": "http://foxford.ru/wiki/informatika/faktorizatsiya-pereborom-deliteley"
+      }
+    ],
+    "571": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Основные правила комбинаторики",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-18189"
+      }
+    ],
+    "572": [
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сочетания",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/veWlgAMkQEs/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Биномиальные коэффициенты",
+        "href": "http://e-maxx.ru/algo/binomial_coeff"
+      }
+    ],
+    "573": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Перебор комбинаторных объектов",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-367"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Размещения с повторениями",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/aram0M3qSbM/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Подмножества",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/bwnRmaaYXMg/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сочетания",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/veWlgAMkQEs/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Сочетания",
+        "href": "http://e-maxx.ru/algo/generating_combinations"
+      }
+    ],
+    "574": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Перебор",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-366"
+      }
+    ],
+    "575": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Пересечение с прямой",
+        "href": "http://e-maxx.ru/algo/circle_line_intersection"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Пересечение двух окружностей",
+        "href": "http://e-maxx.ru/algo/circles_intersection"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Общая касательная к двум окружностям",
+        "href": "http://e-maxx.ru/algo/circle_tangents"
+      }
+    ],
+    "576": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Элементарная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-406"
+      }
+    ],
+    "577": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Клеточная геометрия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-445"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Формула Пика",
+        "href": "http://e-maxx.ru/algo/pick_grid_theorem"
+      }
+    ],
+    "578": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Минимальные каркасы",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-390"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Краскала",
+        "href": "http://e-maxx.ru/algo/mst_kruskal"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Краскала с СНМ",
+        "href": "http://e-maxx.ru/algo/mst_kruskal_with_dsu"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Краскала",
+        "href": "http://foxford.ru/wiki/informatika/postroenie-minimalnogo-ostovnogo-dereva"
+      }
+    ],
+    "580": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Динамическое программирование",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-351"
+      }
+    ],
+    "581": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП с одним параметром",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-397"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Общая схема решение задач ДП",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/pwO0r_qbkX8/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Восстановление ответа",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/H5wxrKFMTQ4/"
+      }
+    ],
+    "583": [
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Сложность алгоритмов",
+        "href": "http://habrahabr.ru/post/104219/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Сложность алгоритмов",
+        "href": "http://habrahabr.ru/post/196560/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Таблица сложности алгоритмов",
+        "href": "http://habrahabr.ru/post/188010/"
+      }
+    ],
+    "585": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Пересечение множеств",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-423"
+      },
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Множества",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-457"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Множества. Формула включения-исключения",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-457"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Множества. Формула включения-исключения",
+        "href": "http://e-maxx.ru/algo/inclusion_exclusion_principle"
+      }
+    ],
+    "586": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Гамильтонов цикл",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-446"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Гамильтонов цикл",
+        "href": "http://foxford.ru/wiki/informatika/postroenie-gamiltonova-tsikla"
+      }
+    ],
+    "587": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Перебор с отсечениями",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-372"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Разные оптимизации перебора",
+        "href": "http://habrahabr.ru/post/190850/"
+      }
+    ],
+    "588": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Минимальные каркасы",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-390"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Прима",
+        "href": "http://e-maxx.ru/algo/mst_prim"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Прима",
+        "href": "http://foxford.ru/wiki/informatika/postroenie-minimalnogo-ostovnogo-dereva"
+      }
+    ],
+    "590": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "ДП в играх",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-415"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "ДП в играх",
+        "href": "http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-igry"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "ДП в играх",
+        "href": "http://foxford.ru/wiki/informatika/dvumernoe-dinamicheskoe-programmirovanie-igry"
+      }
+    ],
+    "591": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Игры и выигрышные стратегии",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-396"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Игры и выигрышные стратегии",
+        "href": "http://e-maxx.ru/algo/games_on_graphs"
+      }
+    ],
+    "592": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Рекурсия",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-347"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Рекурсия",
+        "href": "http://habrahabr.ru/post/124856/"
+      }
+    ],
+    "593": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Поиск в массиве",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-335"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Поиск в массиве",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/Du70u7-gIsc/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Максимум, второй максимум",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/YSjhrvKHo8Y/"
+      }
+    ],
+    "594": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Квадратичные сортировки",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-343"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Квадратичные сортировки",
+        "href": "http://foxford.ru/wiki/informatika/kvadratichnye-sortirovki-v-python"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Пузырьковая сортировка",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/kBHwr_e_aAg/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сортировка выбором максимума",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/gZGwKXwjffg/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Квадратичные сортировки",
+        "href": "http://foxford.ru/wiki/informatika/kvadratichnye-sortirovki-v-python"
+      }
+    ],
+    "595": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Подсчет. Сортировка подсчетом",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-424"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Подсчет. Сортировка подсчетом",
+        "href": "http://foxford.ru/wiki/informatika/sortirovka-podschetom"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Поразрядная сортировка",
+        "href": "http://foxford.ru/wiki/informatika/porazryadnaya-sortirovka"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Подсчет. Сортировка подсчетом",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/Prz7x1bkW5Y/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Подсчет. Сортировка подсчетом",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/kVcmMxhr-CI/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Подсчет. Сортировка подсчетом",
+        "href": "http://foxford.ru/wiki/informatika/sortirovka-podschetom"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Поразрядная сортировка",
+        "href": "http://foxford.ru/wiki/informatika/porazryadnaya-sortirovka"
+      }
+    ],
+    "596": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Алгоритм Форда-Фалкерсона",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-392"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Форда-Фалкерсона",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-forda-bellmana"
+      }
+    ],
+    "597": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Алгоритм Дейкстры",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-341"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Дейкстры",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-deykstry"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Дейкстры",
+        "href": "http://e-maxx.ru/algo/dijkstra"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Дейкстры",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-deykstry"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Алгоритм Дейкстры",
+        "href": "http://habrahabr.ru/post/202314/"
+      }
+    ],
+    "598": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Поиск в ширину",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-386"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Поиск в ширину",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-poiska-v-shirinu"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Волновой алгоритм",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/YKxe2ZFVkHQ/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сложность волнового алгоритма",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/RL0BGVJxCKo/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Восстановление пути",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/sX5KYJd3GRY/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Клеточные лабиринты",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/cUTOEaG36Sw/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Поиск в ширину",
+        "href": "http://e-maxx.ru/algo/bfs"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Поиск в ширину",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-poiska-v-shirinu"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Поиск в ширину",
+        "href": "http://habrahabr.ru/post/200252/"
+      }
+    ],
+    "599": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Кратчайшие пути в графе",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-338"
+      }
+    ],
+    "600": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Хранение графа",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-388"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Списки смежных вершин",
+        "href": "http://foxford.ru/wiki/informatika/hranenie-grafa-spiski-smezhnyh-vershin"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Список ребер",
+        "href": "http://foxford.ru/wiki/informatika/hranenie-grafa-spisok-reber"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Матрица смежности",
+        "href": "http://foxford.ru/wiki/informatika/hranenie-grafa-matritsa-smezhnosti"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Неявное задание",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/-4ydd-Gj9GY/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Списки смежных вершин",
+        "href": "http://foxford.ru/wiki/informatika/hranenie-grafa-spiski-smezhnyh-vershin"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Список ребер",
+        "href": "http://foxford.ru/wiki/informatika/hranenie-grafa-spisok-reber"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Матрица смежности",
+        "href": "http://foxford.ru/wiki/informatika/hranenie-grafa-matritsa-smezhnosti"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 7,
+        "target": "Pythontutor",
+        "target_color": "pythontutor_ref",
+        "name": "Графы",
+        "href": "http://pythontutor.ru/lessons/graphs/"
+      }
+    ],
+    "601": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Однопроходные алгоритмы",
+        "href": "http://informatics.mccme.ru/mod/statements/view.php?id=12771"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Однопрохдные алгоритмы",
+        "href": "http://habrahabr.ru/post/243819/"
+      }
+    ],
+    "602": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Бинарный поиск в упорядоченном массиве",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-337"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Бинарный поиск в упорядоченном массиве",
+        "href": "http://foxford.ru/wiki/informatika/binarnyy-poisk-v-massive-na-python-dva-fiktivnyh-elementa"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Идея",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/5znFHMc5au4/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Инварианты",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/sPx1gETM7Eo/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Левый и правый бинпоиск",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/w3nbKMuZqfg/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Бинарный поиск в упорядоченном массиве",
+        "href": "http://foxford.ru/wiki/informatika/binarnyy-poisk-v-massive-na-python-dva-fiktivnyh-elementa"
+      }
+    ],
+    "603": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Быстрая сортировка",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-416"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Быстрая сортировка",
+        "href": "http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Python",
+        "href": "http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara-python"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Быстрая сортировка",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/zw_JpBA5_rg/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Быстрая сортировка",
+        "href": "http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Python",
+        "href": "http://foxford.ru/wiki/informatika/bystraya-sortirovka-hoara-python"
+      }
+    ],
+    "604": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Сортировка слиянием",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-417"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Сортировка слиянием",
+        "href": "http://foxford.ru/wiki/informatika/sortirovka-sliyaniem"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сортировка слиянием",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/leTOBaT9mSw/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сортировка слиянием",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/itjUmHNrnA8/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сортировка слиянием",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/7JoWmr6_ljM/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Сортировка слиянием",
+        "href": "http://foxford.ru/wiki/informatika/sortirovka-sliyaniem"
+      }
+    ],
+    "605": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Паросочетания",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-432"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Алгоритм Куна",
+        "href": "http://hardfire.ru/kuhn"
+      }
+    ],
+    "606": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Потоки",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-391"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Поток минимальной стоимости",
+        "href": "http://e-maxx.ru/algo/min_cost_flow_negative_cycles"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Поток минимальной стоимости",
+        "href": "http://habrahabr.ru/post/61884/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Алгоритм Эдмондса-Карпа",
+        "href": "http://hardfire.ru/edmonds_karp"
+      }
+    ],
+    "607": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Алгоритм Форда-Беллмана",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-389"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Форда-Беллмана",
+        "href": "http://e-maxx.ru/algo/ford_bellman"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Форда-Беллмана",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-forda-bellmana"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Алгоритм Форда-Беллмана",
+        "href": "http://habrahabr.ru/post/201588/"
+      }
+    ],
+    "608": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Алгоритм Флойда",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-373"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Флойда",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-floyda"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Алгоритм Флойда",
+        "href": "http://e-maxx.ru/algo/floyd_warshall_algorithm"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Алгоритм Флойда",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-floyda"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Алгоритм Флойда",
+        "href": "http://habrahabr.ru/post/119158/"
+      }
+    ],
+    "609": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Эйлеров цикл",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-444"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Эйлеров цикл",
+        "href": "http://e-maxx.ru/algo/euler_path"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 6,
+        "target": "HardFire",
+        "target_color": "hardfire_ref",
+        "name": "Эйлеров цикл",
+        "href": "http://hardfire.ru/euler"
+      }
+    ],
+    "610": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Поиск в глубину",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-387"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Поиск в глубину",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-poiska-v-glubinu"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Идея",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/aX2vxp4NeqI/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Реализация для связного графа",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/oWc-uhuH0oo/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Реализация для несвязного графа",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/xZdaTdiidkk/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сложность алгоритма",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/EJJ3eqOcHe8/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Поиск цикла",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/NzFUZRNA3n8/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Проверка на двудольность",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/yPnelTAnZNE/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Поиск в глубину",
+        "href": "http://e-maxx.ru/algo/dfs"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Поиск компонент связности",
+        "href": "http://e-maxx.ru/algo/connected_components"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 3,
+        "target": "Foxford",
+        "target_color": "foxford_ref",
+        "name": "Поиск в глубину",
+        "href": "http://foxford.ru/wiki/informatika/algoritm-poiska-v-glubinu"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Поиск в глубину",
+        "href": "http://habrahabr.ru/post/200074/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 7,
+        "target": "Pythontutor",
+        "target_color": "pythontutor_ref",
+        "name": "Обход в глубину",
+        "href": "http://pythontutor.ru/lessons/dfs/"
+      }
+    ],
+    "612": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Вещественный бинарный поиск",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-438"
+      }
+    ],
+    "613": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Бинарный поиск по ответу",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-429"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Бинарный поиск по ответу",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/scSO8aMDGYQ/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Задача о двух ксероксах",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/b2KZPLYqbzY/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Задача о распиле досок",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/3pVREiuGwQ8/"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Задача о фонтанах",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/YzsVQRESmeE/"
+      }
+    ],
+    "614": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Порядковые статистики",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-431"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Порядковые статистики",
+        "href": "http://sis.khashaev.ru/2008/august/b-prime/itjUmHNrnA8/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Порядковые статистики",
+        "href": "http://e-maxx.ru/algo/kth_order_statistics"
+      }
+    ],
+    "615": [
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Топологическая сортировка",
+        "href": "http://sis.khashaev.ru/2013/august/c-prime/RXGVcvGcKuE/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Топологическая сортировка",
+        "href": "http://e-maxx.ru/algo/topological_sort"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Топологическая сортировка",
+        "href": "http://habrahabr.ru/post/100953/"
+      }
+    ],
+    "616": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Сканирующая прямая",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-430"
+      },
+      {
+        "group_id": 2,
+        "group": "Видео",
+        "target_id": 4,
+        "target": "SIS.Video",
+        "target_color": "sis_ref",
+        "name": "Сканирующая прямая",
+        "href": "http://sis.khashaev.ru/2013/july/b-prime/042VezYjC7g/"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Площадь объединения треугольников",
+        "href": "http://e-maxx.ru/algo/triangles_union"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Поиск пары пересекающихся отрезков",
+        "href": "http://e-maxx.ru/algo/intersecting_segments"
+      }
+    ],
+    "617": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Метод двух указателей",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-454"
+      }
+    ],
+    "618": [
+      {
+        "group_id": 1,
+        "group": "Задачи",
+        "target_id": 1,
+        "target": "Informatics",
+        "target_color": "informatics_ref",
+        "name": "Тернарный поиск",
+        "href": "http://informatics.mccme.ru/py-source/source/dir/240-452"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Тернарный поиск",
+        "href": "http://e-maxx.ru/algo/ternary_search"
+      }
+    ],
+    "624": [
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 2,
+        "target": "E-maxx",
+        "target_color": "emaxx_ref",
+        "name": "Декартово дерево",
+        "href": "http://e-maxx.ru/algo/treap"
+      },
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Описание, операции, применение",
+        "href": "https://habrahabr.ru/post/101818/"
+      }
+    ],
+    "625": [
+      {
+        "group_id": 3,
+        "group": "Теория",
+        "target_id": 5,
+        "target": "Habrahabr",
+        "target_color": "habr_ref",
+        "name": "Декартово дерево по неявному к",
+        "href": "https://habrahabr.ru/post/102364/"
+      }
+    ],
+    "535": [
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Линейные уравнения",
+        "href": "https://ru.algorithmica.org/cs/algebra/linear-equations/"
+      },
+      {
+        "group_id": 0,
+        "group": "Практика",
+        "target_id": 0,
+        "target": "Informatics",
+        "target_color": "",
+        "name": "Линейные и квадратные уравнения",
+        "href": "https://informatics.msk.ru/"
+      }
+    ],
+    "611": [
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Метод двух указателей",
+        "href": "https://ru.algorithmica.org/cs/two-pointers/"
+      },
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Meet-in-the-middle",
+        "href": "https://ru.algorithmica.org/cs/meet-in-the-middle/"
+      }
+    ],
+    "620": [
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Префиксные суммы",
+        "href": "https://ru.algorithmica.org/cs/range-queries/prefix-sum/"
+      },
+      {
+        "group_id": 0,
+        "group": "Практика",
+        "target_id": 0,
+        "target": "Informatics",
+        "target_color": "",
+        "name": "Задачи на префиксные суммы",
+        "href": "https://informatics.mccme.ru/"
+      }
+    ],
+    "621": [
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Корневые структуры",
+        "href": "https://ru.algorithmica.org/cs/range-queries/sqrt-structures/"
+      },
+      {
+        "group_id": 0,
+        "group": "Практика",
+        "target_id": 0,
+        "target": "Informatics",
+        "target_color": "",
+        "name": "Корневая эвристика и sqrt-декомпозиция",
+        "href": "https://informatics.mccme.ru/py-source/source/dir/348-17067"
+      }
+    ],
+    "622": [
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Разреженная таблица",
+        "href": "https://ru.algorithmica.org/cs/range-queries/sparse-table/"
+      },
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "CP Algorithms",
+        "target_color": "",
+        "name": "Sparse Table",
+        "href": "https://cp-algorithms.com/data_structures/sparse-table.html"
+      }
+    ],
+    "623": [
+      {
+        "group_id": 0,
+        "group": "Теория",
+        "target_id": 0,
+        "target": "Algorithmica",
+        "target_color": "",
+        "name": "Структуры данных STL",
+        "href": "https://ru.algorithmica.org/cs/stl/"
+      },
+      {
+        "group_id": 0,
+        "group": "Практика",
+        "target_id": 0,
+        "target": "Informatics",
+        "target_color": "",
+        "name": "Множества и словари",
+        "href": "https://informatics.mccme.ru/"
+      }
+    ]
+  }
+}
