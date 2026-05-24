@@ -53,9 +53,9 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 ## Lock discipline
 
-- Любые файловые правки в этом snapshot-контуре запрещены без предварительного `lockctl acquire` по конкретному файлу.
-- Источник истины по активным локам — только `lockctl`; project-local заметки не подменяют runtime truth.
-- После завершения правки лок обязательно снимается через `lockctl release-path` или `lockctl release-issue`.
+- Любые файловые правки в этом snapshot-контуре запрещены без предварительного `coordctl` intent lease по конкретному файлу/region.
+- Источник истины по active coordination state — только `coordctl`; project-local заметки не подменяют runtime truth.
+- После завершения правки coordctl session/leases обязательно снимаются через `coordctl_release`/`coordctl_cleanup`.
 
 ## Git и завершение работы
 

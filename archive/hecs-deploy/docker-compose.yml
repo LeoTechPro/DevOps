@@ -3,7 +3,7 @@ services:
     build:
       context: ..
       dockerfile: hecs-deploy/Dockerfile
-    container_name: hecs-web
+    container_name: example-app-web
     env_file:
       - .env
     ports:
